@@ -1,0 +1,2533 @@
+{
+ "source": "@scottjwillis (Cannon Stats) post-match posts on X",
+ "season": "2026-27",
+ "generated": "2026-10-24",
+ "note": "Team stats transcribed from the Full Time card where available; null = not transcribed.",
+ "matches": [
+  {
+   "date": "2026-08-16",
+   "competition": "Community Shield",
+   "team": "Men",
+   "home": "Arsenal",
+   "away": "Man City",
+   "opponent": "Man City",
+   "venue": "H",
+   "score": "3-0",
+   "xg": "2.1-0.8",
+   "image_count": 23,
+   "team_stats": null,
+   "full_time_post": "https://x.com/scottjwillis/status/2089019909846044723",
+   "posts": [
+    {
+     "url": "https://x.com/scottjwillis/status/2089019909846044723",
+     "title": "Arsenal 3 - 0 Man City | Full Time | 2.1 - 0.8 xG",
+     "posted_utc": "2026-08-16T16:02:13.000Z",
+     "images": [
+      {
+       "file": "2026-08-16_man-city_1.jpg",
+       "url": "https://pbs.twimg.com/media/HP2wiMeWwAAMwS8?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-16_man-city_2.jpg",
+       "url": "https://pbs.twimg.com/media/HP2wh3tXkAIg5tl?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-16_man-city_3.jpg",
+       "url": "https://pbs.twimg.com/media/HP2wh58XUAAGFA0?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-16_man-city_4.jpg",
+       "url": "https://pbs.twimg.com/media/HP2wh-0XwAATNUc?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2089020498516549906",
+     "title": "Arsenal 3 (2.1)-(0.8) 0 Man City",
+     "posted_utc": "2026-08-16T16:04:33.000Z",
+     "images": [
+      {
+       "file": "2026-08-16_man-city_5.jpg",
+       "url": "https://pbs.twimg.com/media/HP2xEU8WwAAIWsX?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-16_man-city_6.jpg",
+       "url": "https://pbs.twimg.com/media/HP2xEctX0AAPUCV?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-16_man-city_7.jpg",
+       "url": "https://pbs.twimg.com/media/HP2xEUYWMAAEDTn?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-16_man-city_8.jpg",
+       "url": "https://pbs.twimg.com/media/HP2xERPXUAAVAUp?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2089021754735816807",
+     "title": "Arsenal 3 - 0 Man City - Passing Networks",
+     "posted_utc": "2026-08-16T16:09:33.000Z",
+     "images": [
+      {
+       "file": "2026-08-16_man-city_9.jpg",
+       "url": "https://pbs.twimg.com/media/HP2yNncWsAAOR56?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-16_man-city_10.jpg",
+       "url": "https://pbs.twimg.com/media/HP2yNkYW8AAg0f2?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-16_man-city_11.jpg",
+       "url": "https://pbs.twimg.com/media/HP2yNlfXIAAqb45?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-16_man-city_12.jpg",
+       "url": "https://pbs.twimg.com/media/HP2yNi-WgAA_fAW?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2089023013744263318",
+     "title": "Arsenal - Attacking Contribution | Arsenal 3 - 0 Man City",
+     "posted_utc": "2026-08-16T16:14:33.000Z",
+     "images": [
+      {
+       "file": "2026-08-16_man-city_13.jpg",
+       "url": "https://pbs.twimg.com/media/HP2zWxMWQAAC0VA?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-16_man-city_14.jpg",
+       "url": "https://pbs.twimg.com/media/HP2zWyEWwAAvtzz?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-16_man-city_15.jpg",
+       "url": "https://pbs.twimg.com/media/HP2zWvgW8AA3BjS?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-16_man-city_16.jpg",
+       "url": "https://pbs.twimg.com/media/HP2zW3yWwAAd-jl?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2089025531450692030",
+     "title": "Arsenal 3 - 0 Man City - Shot Maps",
+     "posted_utc": "2026-08-16T16:24:33.000Z",
+     "images": [
+      {
+       "file": "2026-08-16_man-city_17.jpg",
+       "url": "https://pbs.twimg.com/media/HP21pYFWIAAloy-?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-16_man-city_18.jpg",
+       "url": "https://pbs.twimg.com/media/HP21pXRXMAA7Vo6?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-16_man-city_19.jpg",
+       "url": "https://pbs.twimg.com/media/HP21pKAWIAAIm_r?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-16_man-city_20.jpg",
+       "url": "https://pbs.twimg.com/media/HP21pIAWcAEb3Ki?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2089028048121221313",
+     "title": "Arsenal 3 - 0 Man City - Deserve to Win Meter",
+     "posted_utc": "2026-08-16T16:34:33.000Z",
+     "images": [
+      {
+       "file": "2026-08-16_man-city_21.jpg",
+       "url": "https://pbs.twimg.com/media/HP2372dXkAA3KTM?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2089030562497319109",
+     "title": "Arsenal's Ground and Air Duels - Arsenal (3 - 0) Man City",
+     "posted_utc": "2026-08-16T16:44:33.000Z",
+     "images": [
+      {
+       "file": "2026-08-16_man-city_22.jpg",
+       "url": "https://pbs.twimg.com/media/HP26OPyWYAAqcm0?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-16_man-city_23.jpg",
+       "url": "https://pbs.twimg.com/media/HP26OVDXMAAc7NV?format=jpg&name=orig"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-08-21",
+   "competition": "Premier League",
+   "team": "Men",
+   "home": "Arsenal",
+   "away": "Coventry",
+   "opponent": "Coventry",
+   "venue": "H",
+   "score": "3-0",
+   "xg": "2.0-0.2",
+   "image_count": 23,
+   "team_stats": null,
+   "full_time_post": "https://x.com/scottjwillis/status/2090905275083456973",
+   "posts": [
+    {
+     "url": "https://x.com/scottjwillis/status/2090905275083456973",
+     "title": "Arsenal 3 - 0 Coventry | Full Time | 2.0 - 0.2 xG",
+     "posted_utc": "2026-08-21T20:53:59.000Z",
+     "images": [
+      {
+       "file": "2026-08-21_coventry_1.jpg",
+       "url": "https://pbs.twimg.com/media/HQRjQ3HXQAExiIf?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-21_coventry_2.jpg",
+       "url": "https://pbs.twimg.com/media/HQRjQ1QWAAAmNeG?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-21_coventry_3.jpg",
+       "url": "https://pbs.twimg.com/media/HQRjQ2pXsAAgsGN?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-21_coventry_4.jpg",
+       "url": "https://pbs.twimg.com/media/HQRjQ2DXEAAt932?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2090905857668100315",
+     "title": "Arsenal 3 (2.0)-(0.2) 0 Coventry",
+     "posted_utc": "2026-08-21T20:56:18.000Z",
+     "images": [
+      {
+       "file": "2026-08-21_coventry_5.jpg",
+       "url": "https://pbs.twimg.com/media/HQRjywfWcAAuBdF?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-21_coventry_6.jpg",
+       "url": "https://pbs.twimg.com/media/HQRjyv5WMAAciDW?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-21_coventry_7.jpg",
+       "url": "https://pbs.twimg.com/media/HQRjywPWsAAmNQ8?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-21_coventry_8.jpg",
+       "url": "https://pbs.twimg.com/media/HQRjyzQXkAACGLS?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2090907115544096803",
+     "title": "Arsenal 3 - 0 Coventry - Passing Networks",
+     "posted_utc": "2026-08-21T21:01:18.000Z",
+     "images": [
+      {
+       "file": "2026-08-21_coventry_9.jpg",
+       "url": "https://pbs.twimg.com/media/HQRk8A_XkAAZloJ?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-21_coventry_10.jpg",
+       "url": "https://pbs.twimg.com/media/HQRk8DGXsAAZMG1?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-21_coventry_11.jpg",
+       "url": "https://pbs.twimg.com/media/HQRk8BDWwAQHsjG?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-21_coventry_12.jpg",
+       "url": "https://pbs.twimg.com/media/HQRk8CuXcAE9v02?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2090908377236865096",
+     "title": "Arsenal - Attacking Contribution | Arsenal 3 - 0 Coventry",
+     "posted_utc": "2026-08-21T21:06:18.000Z",
+     "images": [
+      {
+       "file": "2026-08-21_coventry_13.jpg",
+       "url": "https://pbs.twimg.com/media/HQRmFTlWgAA02gu?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-21_coventry_14.jpg",
+       "url": "https://pbs.twimg.com/media/HQRmFRdW4AAew9f?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-21_coventry_15.jpg",
+       "url": "https://pbs.twimg.com/media/HQRmFQHWgAAg1bY?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-21_coventry_16.jpg",
+       "url": "https://pbs.twimg.com/media/HQRmFctXcAAL0kQ?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2090910892263137755",
+     "title": "Arsenal 3 - 0 Coventry - Shot Maps",
+     "posted_utc": "2026-08-21T21:16:18.000Z",
+     "images": [
+      {
+       "file": "2026-08-21_coventry_17.jpg",
+       "url": "https://pbs.twimg.com/media/HQRoXzYWAAAmh2H?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-21_coventry_18.jpg",
+       "url": "https://pbs.twimg.com/media/HQRoXzTWwAAe7a-?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-21_coventry_19.jpg",
+       "url": "https://pbs.twimg.com/media/HQRoXoaWwAEAbXR?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-21_coventry_20.jpg",
+       "url": "https://pbs.twimg.com/media/HQRoXn3X0AAMVIW?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2090913410275745945",
+     "title": "Arsenal 3 - 0 Coventry - Deserve to Win Meter",
+     "posted_utc": "2026-08-21T21:26:18.000Z",
+     "images": [
+      {
+       "file": "2026-08-21_coventry_21.jpg",
+       "url": "https://pbs.twimg.com/media/HQRqqbWXEAAWwVW?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2090915922298982595",
+     "title": "Arsenal's Ground and Air Duels - Arsenal (3 - 0) Coventry",
+     "posted_utc": "2026-08-21T21:36:17.000Z",
+     "images": [
+      {
+       "file": "2026-08-21_coventry_22.jpg",
+       "url": "https://pbs.twimg.com/media/HQRs8rqWQAA2iT3?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-21_coventry_23.jpg",
+       "url": "https://pbs.twimg.com/media/HQRs8s9W4AASYhf?format=jpg&name=orig"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-08-31",
+   "competition": "Premier League",
+   "team": "Men",
+   "home": "Villa",
+   "away": "Arsenal",
+   "opponent": "Villa",
+   "venue": "A",
+   "score": "0-1",
+   "xg": "0.3-1.0",
+   "image_count": 23,
+   "team_stats": null,
+   "full_time_post": "https://x.com/scottjwillis/status/2094530368271487477",
+   "posts": [
+    {
+     "url": "https://x.com/scottjwillis/status/2094530368271487477",
+     "title": "Villa 0 - 1 Arsenal | Full Time | 0.3 - 1.0 xG",
+     "posted_utc": "2026-08-31T20:58:48.000Z",
+     "images": [
+      {
+       "file": "2026-08-31_villa_1.jpg",
+       "url": "https://pbs.twimg.com/media/HRFERAIXEAAyuRy?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-31_villa_2.jpg",
+       "url": "https://pbs.twimg.com/media/HRFEQ6PXkAAUEdl?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-31_villa_3.jpg",
+       "url": "https://pbs.twimg.com/media/HRFEQ_2XoAAWNH_?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-31_villa_4.jpg",
+       "url": "https://pbs.twimg.com/media/HRFERFDWkAAkH-D?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2094531021320384677",
+     "title": "Villa 0 (0.3)-(1.0) 1 Arsenal",
+     "posted_utc": "2026-08-31T21:01:24.000Z",
+     "images": [
+      {
+       "file": "2026-08-31_villa_5.jpg",
+       "url": "https://pbs.twimg.com/media/HRFE3FHWEAAHHFx?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-31_villa_6.jpg",
+       "url": "https://pbs.twimg.com/media/HRFE3CIWoAA9HC0?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-31_villa_7.jpg",
+       "url": "https://pbs.twimg.com/media/HRFE3HUXwAAutNM?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-31_villa_8.jpg",
+       "url": "https://pbs.twimg.com/media/HRFE3ExXsAEmFk-?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2094532260175179863",
+     "title": "Villa 0 - 1 Arsenal - Passing Networks",
+     "posted_utc": "2026-08-31T21:06:20.000Z",
+     "images": [
+      {
+       "file": "2026-08-31_villa_9.jpg",
+       "url": "https://pbs.twimg.com/media/HRFF_EIW8AA7EAB?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-31_villa_10.jpg",
+       "url": "https://pbs.twimg.com/media/HRFF_CgXkAAJJHS?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-31_villa_11.jpg",
+       "url": "https://pbs.twimg.com/media/HRFF-9eWEAEeGsE?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-31_villa_12.jpg",
+       "url": "https://pbs.twimg.com/media/HRFF_MFWMAAzsRi?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2094533513093509570",
+     "title": "Arsenal - Attacking Contribution | Villa 0 - 1 Arsenal",
+     "posted_utc": "2026-08-31T21:11:18.000Z",
+     "images": [
+      {
+       "file": "2026-08-31_villa_13.jpg",
+       "url": "https://pbs.twimg.com/media/HRFHIHpWcAAtxR3?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-31_villa_14.jpg",
+       "url": "https://pbs.twimg.com/media/HRFHIB5W0AElmG_?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-31_villa_15.jpg",
+       "url": "https://pbs.twimg.com/media/HRFHIKrXAAEOm3a?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-31_villa_16.jpg",
+       "url": "https://pbs.twimg.com/media/HRFHIGHXoAA9Qx1?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2094536031399764371",
+     "title": "Villa 0 - 1 Arsenal - Shot Maps",
+     "posted_utc": "2026-08-31T21:21:19.000Z",
+     "images": [
+      {
+       "file": "2026-08-31_villa_17.jpg",
+       "url": "https://pbs.twimg.com/media/HRFJaoAW4AAixRJ?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-31_villa_18.jpg",
+       "url": "https://pbs.twimg.com/media/HRFJauFWkAEiaYg?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-31_villa_19.jpg",
+       "url": "https://pbs.twimg.com/media/HRFJam-XgAAvSas?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-31_villa_20.jpg",
+       "url": "https://pbs.twimg.com/media/HRFJaelXoAE3MGl?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2094539048425582977",
+     "title": "Villa 0 - 1 Arsenal - Deserve to Win Meter",
+     "posted_utc": "2026-08-31T21:33:18.000Z",
+     "images": [
+      {
+       "file": "2026-08-31_villa_21.jpg",
+       "url": "https://pbs.twimg.com/media/HRFMKLgWkAA7XL0?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2094541062001860811",
+     "title": "Arsenal's Ground and Air Duels - Villa (0 - 1) Arsenal",
+     "posted_utc": "2026-08-31T21:41:18.000Z",
+     "images": [
+      {
+       "file": "2026-08-31_villa_22.jpg",
+       "url": "https://pbs.twimg.com/media/HRFN_eAWYAEm8zH?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-08-31_villa_23.jpg",
+       "url": "https://pbs.twimg.com/media/HRFN_lzWwAAL_n_?format=jpg&name=orig"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-09-06",
+   "competition": "Premier League",
+   "team": "Men",
+   "home": "Arsenal",
+   "away": "Chelsea",
+   "opponent": "Chelsea",
+   "venue": "H",
+   "score": "2-1",
+   "xg": "1.9-0.4",
+   "image_count": 23,
+   "team_stats": null,
+   "full_time_post": "https://x.com/scottjwillis/status/2096651908039479605",
+   "posts": [
+    {
+     "url": "https://x.com/scottjwillis/status/2096651908039479605",
+     "title": "Arsenal 2 - 1 Chelsea | Full Time | 1.9 - 0.4 xG",
+     "posted_utc": "2026-09-06T17:29:03.000Z",
+     "images": [
+      {
+       "file": "2026-09-06_chelsea_1.jpg",
+       "url": "https://pbs.twimg.com/media/HRjNy4qX0AAuyQ6?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-06_chelsea_2.jpg",
+       "url": "https://pbs.twimg.com/media/HRjNy5bWUAIPpZt?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-06_chelsea_3.jpg",
+       "url": "https://pbs.twimg.com/media/HRjNy8rWYAQKSCv?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-06_chelsea_4.jpg",
+       "url": "https://pbs.twimg.com/media/HRjNy7KWwAMKMln?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2096652476548022657",
+     "title": "Arsenal 2 (1.9)-(0.4) 1 Chelsea",
+     "posted_utc": "2026-09-06T17:31:18.000Z",
+     "images": [
+      {
+       "file": "2026-09-06_chelsea_5.jpg",
+       "url": "https://pbs.twimg.com/media/HRjOT4iWoAA1l7V?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-06_chelsea_6.jpg",
+       "url": "https://pbs.twimg.com/media/HRjOT6yXYAAJS_-?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-06_chelsea_7.jpg",
+       "url": "https://pbs.twimg.com/media/HRjOUC5WcAApz2U?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-06_chelsea_8.jpg",
+       "url": "https://pbs.twimg.com/media/HRjOUBPXAAAQ9UG?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2096653732578529471",
+     "title": "Arsenal 2 - 1 Chelsea - Passing Networks",
+     "posted_utc": "2026-09-06T17:36:18.000Z",
+     "images": [
+      {
+       "file": "2026-09-06_chelsea_9.jpg",
+       "url": "https://pbs.twimg.com/media/HRjPdJ2WgAYSt0H?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-06_chelsea_10.jpg",
+       "url": "https://pbs.twimg.com/media/HRjPdHYX0AIVRBD?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-06_chelsea_11.jpg",
+       "url": "https://pbs.twimg.com/media/HRjPdHlXQAIz70C?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-06_chelsea_12.jpg",
+       "url": "https://pbs.twimg.com/media/HRjPdF6XoAAa7Vw?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2096654992526410167",
+     "title": "Arsenal - Attacking Contribution | Arsenal 2 - 1 Chelsea",
+     "posted_utc": "2026-09-06T17:41:18.000Z",
+     "images": [
+      {
+       "file": "2026-09-06_chelsea_13.jpg",
+       "url": "https://pbs.twimg.com/media/HRjQmayXgAA-J99?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-06_chelsea_14.jpg",
+       "url": "https://pbs.twimg.com/media/HRjQmV3XgAABunO?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-06_chelsea_15.jpg",
+       "url": "https://pbs.twimg.com/media/HRjQmYLXAAIGvT9?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-06_chelsea_16.jpg",
+       "url": "https://pbs.twimg.com/media/HRjQmgHWkAA7FCc?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2096657510832722120",
+     "title": "Arsenal 2 - 1 Chelsea - Shot Maps",
+     "posted_utc": "2026-09-06T17:51:19.000Z",
+     "images": [
+      {
+       "file": "2026-09-06_chelsea_17.jpg",
+       "url": "https://pbs.twimg.com/media/HRjS5AoWcAElCbd?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-06_chelsea_18.jpg",
+       "url": "https://pbs.twimg.com/media/HRjS428W8AAYahL?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-06_chelsea_19.jpg",
+       "url": "https://pbs.twimg.com/media/HRjS4wNXAAMuj8f?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-06_chelsea_20.jpg",
+       "url": "https://pbs.twimg.com/media/HRjS4sVXEAQUrDL?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2096660025724801231",
+     "title": "Arsenal 2 - 1 Chelsea - Deserve to Win Meter",
+     "posted_utc": "2026-09-06T18:01:18.000Z",
+     "images": [
+      {
+       "file": "2026-09-06_chelsea_21.jpg",
+       "url": "https://pbs.twimg.com/media/HRjVLcyXUAEeTwQ?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2096662539186618744",
+     "title": "Arsenal's Ground and Air Duels - Arsenal (2 - 1) Chelsea",
+     "posted_utc": "2026-09-06T18:11:18.000Z",
+     "images": [
+      {
+       "file": "2026-09-06_chelsea_22.jpg",
+       "url": "https://pbs.twimg.com/media/HRjXdyrWMAQVouA?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-06_chelsea_23.jpg",
+       "url": "https://pbs.twimg.com/media/HRjXdz-WIAUt2cU?format=jpg&name=orig"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "competition": "Champions League",
+   "team": "Men",
+   "home": "Napoli",
+   "away": "Arsenal",
+   "opponent": "Napoli",
+   "venue": "A",
+   "score": "0-1",
+   "xg": "0.3-4.1",
+   "image_count": 23,
+   "team_stats": null,
+   "full_time_post": "https://x.com/scottjwillis/status/2097791071711301796",
+   "posts": [
+    {
+     "url": "https://x.com/scottjwillis/status/2097791071711301796",
+     "title": "Napoli 0 - 1 Arsenal | Full Time | 0.3 - 4.1 xG",
+     "posted_utc": "2026-09-09T20:55:41.000Z",
+     "images": [
+      {
+       "file": "2026-09-09_napoli_1.jpg",
+       "url": "https://pbs.twimg.com/media/HRzZ27tWQAIl2iA?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-09_napoli_2.jpg",
+       "url": "https://pbs.twimg.com/media/HRzZ25QXsAIouFx?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-09_napoli_3.jpg",
+       "url": "https://pbs.twimg.com/media/HRzZ26yW8AgsnSW?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-09_napoli_4.jpg",
+       "url": "https://pbs.twimg.com/media/HRzZ2-vXoAMaIY8?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2097791674420166745",
+     "title": "Napoli 0 (0.3)-(4.1) 1 Arsenal",
+     "posted_utc": "2026-09-09T20:58:04.000Z",
+     "images": [
+      {
+       "file": "2026-09-09_napoli_5.jpg",
+       "url": "https://pbs.twimg.com/media/HRzaaI-XQAIw_NG?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-09_napoli_6.jpg",
+       "url": "https://pbs.twimg.com/media/HRzaaHaXkAAPPpU?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-09_napoli_7.jpg",
+       "url": "https://pbs.twimg.com/media/HRzaZ42WgAIA5sL?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-09_napoli_8.jpg",
+       "url": "https://pbs.twimg.com/media/HRzaZ-nWMAUJX3D?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2097792940936507680",
+     "title": "Napoli 0 - 1 Arsenal - Passing Networks",
+     "posted_utc": "2026-09-09T21:03:06.000Z",
+     "images": [
+      {
+       "file": "2026-09-09_napoli_9.jpg",
+       "url": "https://pbs.twimg.com/media/HRzbjjJWwAEtSBv?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-09_napoli_10.jpg",
+       "url": "https://pbs.twimg.com/media/HRzbjQaWkAUGGU2?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-09_napoli_11.jpg",
+       "url": "https://pbs.twimg.com/media/HRzbj1vWYAI_GES?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-09_napoli_12.jpg",
+       "url": "https://pbs.twimg.com/media/HRzbj0dWIAYGIPo?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2097794197986197767",
+     "title": "Arsenal - Attacking Contribution | Napoli 0 - 1 Arsenal",
+     "posted_utc": "2026-09-09T21:08:06.000Z",
+     "images": [
+      {
+       "file": "2026-09-09_napoli_13.jpg",
+       "url": "https://pbs.twimg.com/media/HRzcsdfXAAIXMqc?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-09_napoli_14.jpg",
+       "url": "https://pbs.twimg.com/media/HRzctBpXEAI5v5C?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-09_napoli_15.jpg",
+       "url": "https://pbs.twimg.com/media/HRzctB1WUAQunIK?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-09_napoli_16.jpg",
+       "url": "https://pbs.twimg.com/media/HRzcszjXwAIR17E?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2097796707689824656",
+     "title": "Napoli 0 - 1 Arsenal - Shot Maps",
+     "posted_utc": "2026-09-09T21:18:04.000Z",
+     "images": [
+      {
+       "file": "2026-09-09_napoli_17.jpg",
+       "url": "https://pbs.twimg.com/media/HRze-_3WAAIPJRM?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-09_napoli_18.jpg",
+       "url": "https://pbs.twimg.com/media/HRze_AlW0Ag2dDs?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-09_napoli_19.jpg",
+       "url": "https://pbs.twimg.com/media/HRze-sgXgAYVU_P?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-09_napoli_20.jpg",
+       "url": "https://pbs.twimg.com/media/HRze-sZXYAAgmbe?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2097799223055958322",
+     "title": "Napoli 0 - 1 Arsenal - Deserve to Win Meter",
+     "posted_utc": "2026-09-09T21:28:04.000Z",
+     "images": [
+      {
+       "file": "2026-09-09_napoli_21.jpg",
+       "url": "https://pbs.twimg.com/media/HRzhRbLXgAQAL-b?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2097801736152842744",
+     "title": "Arsenal's Ground and Air Duels - Napoli (0 - 1) Arsenal",
+     "posted_utc": "2026-09-09T21:38:03.000Z",
+     "images": [
+      {
+       "file": "2026-09-09_napoli_22.jpg",
+       "url": "https://pbs.twimg.com/media/HRzjjvFXkAgMvss?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-09_napoli_23.jpg",
+       "url": "https://pbs.twimg.com/media/HRzjjwhXkAEjzfL?format=jpg&name=orig"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-09-12",
+   "competition": "Premier League",
+   "team": "Men",
+   "home": "Sunderland",
+   "away": "Arsenal",
+   "opponent": "Sunderland",
+   "venue": "A",
+   "score": "0-2",
+   "xg": "1.8-1.9",
+   "image_count": 19,
+   "team_stats": {
+    "Goals": [
+     "0",
+     "2"
+    ],
+    "Expected Goals": [
+     "1.8",
+     "1.9"
+    ],
+    "Shots": [
+     "12",
+     "11"
+    ],
+    "Shots On Target (PSxG)": [
+     "3 (1.8)",
+     "5 (2.2)"
+    ],
+    "Open Play Shots": [
+     "5",
+     "9"
+    ],
+    "Possession": [
+     "42.5%",
+     "57.5%"
+    ],
+    "Passes (Completed)": [
+     "300 (222)",
+     "406 (333)"
+    ],
+    "Field Tilt": [
+     "45.6%",
+     "54.4%"
+    ],
+    "Final Third Entries": [
+     "46",
+     "40"
+    ],
+    "xT Created": [
+     "1.4",
+     "1.9"
+    ],
+    "Progressive Passes": [
+     "15",
+     "23"
+    ],
+    "Dribbles (Successful)": [
+     "9 (2)",
+     "9 (2)"
+    ],
+    "Tackles (Successful)": [
+     "37 (13)",
+     "34 (14)"
+    ],
+    "Interceptions": [
+     "5",
+     "9"
+    ],
+    "Clearances": [
+     "20",
+     "24"
+    ]
+   },
+   "full_time_post": "https://x.com/scottjwillis/status/2098878915880116417",
+   "posts": [
+    {
+     "url": "https://x.com/scottjwillis/status/2098878915880116417",
+     "title": "Sunderland 0 - 2 Arsenal | Full Time | 1.8 - 1.9 xG",
+     "posted_utc": "2026-09-12T20:58:23.000Z",
+     "images": [
+      {
+       "file": "2026-09-12_sunderland_1.jpg",
+       "url": "https://pbs.twimg.com/media/HSC3PwpXgAAEvHl?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-12_sunderland_2.jpg",
+       "url": "https://pbs.twimg.com/media/HSC3PwdWoAErIob?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-12_sunderland_3.jpg",
+       "url": "https://pbs.twimg.com/media/HSC3P1JWYAAbp8P?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-12_sunderland_4.jpg",
+       "url": "https://pbs.twimg.com/media/HSC3P4PW8AkNfof?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2098879522359709786",
+     "title": "Sunderland 0 (1.8)-(1.9) 2 Arsenal",
+     "posted_utc": "2026-09-12T21:00:48.000Z",
+     "images": [
+      {
+       "file": "2026-09-12_sunderland_5.jpg",
+       "url": "https://pbs.twimg.com/media/HSC3zN4XcAUb8Z5?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-12_sunderland_6.jpg",
+       "url": "https://pbs.twimg.com/media/HSC3zKhW4Ag_skB?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-12_sunderland_7.jpg",
+       "url": "https://pbs.twimg.com/media/HSC3zMHXYAMB2Ly?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-12_sunderland_8.jpg",
+       "url": "https://pbs.twimg.com/media/HSC3zM4WMAc0x7S?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2098880780852134182",
+     "title": "Sunderland 0 - 2 Arsenal - Passing Networks",
+     "posted_utc": "2026-09-12T21:05:48.000Z",
+     "images": [
+      {
+       "file": "2026-09-12_sunderland_9.jpg",
+       "url": "https://pbs.twimg.com/media/HSC48bwX0AIxqRA?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-12_sunderland_10.jpg",
+       "url": "https://pbs.twimg.com/media/HSC48bTWAAQuBxm?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-12_sunderland_11.jpg",
+       "url": "https://pbs.twimg.com/media/HSC48bWXkAUO9pO?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-12_sunderland_12.jpg",
+       "url": "https://pbs.twimg.com/media/HSC48efXMAEB7JU?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2098884557848084884",
+     "title": "Sunderland 0 - 2 Arsenal - Shot Maps",
+     "posted_utc": "2026-09-12T21:20:48.000Z",
+     "images": [
+      {
+       "file": "2026-09-12_sunderland_13.jpg",
+       "url": "https://pbs.twimg.com/media/HSC8YNBXQAM5DZk?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-12_sunderland_14.jpg",
+       "url": "https://pbs.twimg.com/media/HSC8YO6XQAoPeCN?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-12_sunderland_15.jpg",
+       "url": "https://pbs.twimg.com/media/HSC8YBfXQAA6yZL?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-12_sunderland_16.jpg",
+       "url": "https://pbs.twimg.com/media/HSC8YFUWAAgTAxM?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2098887072866021715",
+     "title": "Sunderland 0 - 2 Arsenal - Deserve to Win Meter",
+     "posted_utc": "2026-09-12T21:30:48.000Z",
+     "images": [
+      {
+       "file": "2026-09-12_sunderland_17.jpg",
+       "url": "https://pbs.twimg.com/media/HSC-qqbWsAIbPQY?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2098889588689232171",
+     "title": "Arsenal's Ground and Air Duels - Sunderland (0 - 2) Arsenal",
+     "posted_utc": "2026-09-12T21:40:48.000Z",
+     "images": [
+      {
+       "file": "2026-09-12_sunderland_18.jpg",
+       "url": "https://pbs.twimg.com/media/HSDA9GFXQAcV1T6?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-12_sunderland_19.jpg",
+       "url": "https://pbs.twimg.com/media/HSDA9JlWEAEonQ9?format=jpg&name=orig"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-09-15",
+   "competition": "League Cup",
+   "team": "Men",
+   "home": "Ipswich",
+   "away": "Arsenal",
+   "opponent": "Ipswich",
+   "venue": "A",
+   "score": "2-4",
+   "xg": "0.9-1.3",
+   "image_count": 23,
+   "team_stats": {
+    "Goals": [
+     "2",
+     "4"
+    ],
+    "Expected Goals": [
+     "0.9",
+     "1.3"
+    ],
+    "Shots": [
+     "8",
+     "12"
+    ],
+    "Shots On Target (PSxG)": [
+     "3 (1.8)",
+     "6 (3.1)"
+    ],
+    "Open Play Shots": [
+     "6",
+     "12"
+    ],
+    "Possession": [
+     "41.1%",
+     "58.9%"
+    ],
+    "Passes (Completed)": [
+     "417 (345)",
+     "598 (527)"
+    ],
+    "Field Tilt": [
+     "36.2%",
+     "63.8%"
+    ],
+    "Final Third Entries": [
+     "58",
+     "62"
+    ],
+    "xT Created": [
+     "1.5",
+     "1.4"
+    ],
+    "Progressive Passes": [
+     "18",
+     "34"
+    ],
+    "Dribbles (Successful)": [
+     "17 (7)",
+     "29 (12)"
+    ],
+    "Tackles (Successful)": [
+     "63 (26)",
+     "49 (15)"
+    ],
+    "Interceptions": [
+     "14",
+     "9"
+    ],
+    "Clearances": [
+     "24",
+     "18"
+    ]
+   },
+   "full_time_post": "https://x.com/scottjwillis/status/2099964466284658787",
+   "posts": [
+    {
+     "url": "https://x.com/scottjwillis/status/2099964466284658787",
+     "title": "Ipswich 2 - 4 Arsenal | Full Time | 0.9 - 1.3 xG",
+     "posted_utc": "2026-09-15T20:51:58.000Z",
+     "images": [
+      {
+       "file": "2026-09-15_ipswich_1.jpg",
+       "url": "https://pbs.twimg.com/media/HSSSjHQXUAAq2yK?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-15_ipswich_2.jpg",
+       "url": "https://pbs.twimg.com/media/HSSSjCjXYAAHE8H?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-15_ipswich_3.jpg",
+       "url": "https://pbs.twimg.com/media/HSSSjHTXAAAiIdY?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-15_ipswich_4.jpg",
+       "url": "https://pbs.twimg.com/media/HSSSjHnXMAEdMBj?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2099965056440041535",
+     "title": "Ipswich 2 (0.9)-(1.3) 4 Arsenal",
+     "posted_utc": "2026-09-15T20:54:19.000Z",
+     "images": [
+      {
+       "file": "2026-09-15_ipswich_5.jpg",
+       "url": "https://pbs.twimg.com/media/HSSTFbmWEAADRrV?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-15_ipswich_6.jpg",
+       "url": "https://pbs.twimg.com/media/HSSTFgUX0AAaG25?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-15_ipswich_7.jpg",
+       "url": "https://pbs.twimg.com/media/HSSTFf1WYAAa8wa?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-15_ipswich_8.jpg",
+       "url": "https://pbs.twimg.com/media/HSSTFlnXMAAlSrv?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2099966313410015458",
+     "title": "Ipswich 2 - 4 Arsenal - Passing Networks",
+     "posted_utc": "2026-09-15T20:59:19.000Z",
+     "images": [
+      {
+       "file": "2026-09-15_ipswich_9.jpg",
+       "url": "https://pbs.twimg.com/media/HSSUOttWEAAOrbo?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-15_ipswich_10.jpg",
+       "url": "https://pbs.twimg.com/media/HSSUOoxXsAAghNx?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-15_ipswich_11.jpg",
+       "url": "https://pbs.twimg.com/media/HSSUOvZWEAEMXdi?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-15_ipswich_12.jpg",
+       "url": "https://pbs.twimg.com/media/HSSUOvMXwAEtRcW?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2099967574075146436",
+     "title": "Arsenal - Attacking Contribution | Ipswich 2 - 4 Arsenal",
+     "posted_utc": "2026-09-15T21:04:19.000Z",
+     "images": [
+      {
+       "file": "2026-09-15_ipswich_13.jpg",
+       "url": "https://pbs.twimg.com/media/HSSVYBLWAAAhJdZ?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-15_ipswich_14.jpg",
+       "url": "https://pbs.twimg.com/media/HSSVX_nXEAE6szg?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-15_ipswich_15.jpg",
+       "url": "https://pbs.twimg.com/media/HSSVYGeXgAAySQR?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-15_ipswich_16.jpg",
+       "url": "https://pbs.twimg.com/media/HSSVYHIX0AEvsFe?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2099970089961304075",
+     "title": "Ipswich 2 - 4 Arsenal - Shot Maps",
+     "posted_utc": "2026-09-15T21:14:19.000Z",
+     "images": [
+      {
+       "file": "2026-09-15_ipswich_17.jpg",
+       "url": "https://pbs.twimg.com/media/HSSXqbpW8AA5AOk?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-15_ipswich_18.jpg",
+       "url": "https://pbs.twimg.com/media/HSSXqhgWwAApey0?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-15_ipswich_19.jpg",
+       "url": "https://pbs.twimg.com/media/HSSXqQ2XUAAz5N-?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-15_ipswich_20.jpg",
+       "url": "https://pbs.twimg.com/media/HSSXqMBWgAAtXp9?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2099972603867787733",
+     "title": "Ipswich 2 - 4 Arsenal - Deserve to Win Meter",
+     "posted_utc": "2026-09-15T21:24:19.000Z",
+     "images": [
+      {
+       "file": "2026-09-15_ipswich_21.jpg",
+       "url": "https://pbs.twimg.com/media/HSSZ805XkAAkfdR?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2099975116666896867",
+     "title": "Arsenal's Ground and Air Duels - Ipswich (2 - 4) Arsenal",
+     "posted_utc": "2026-09-15T21:34:18.000Z",
+     "images": [
+      {
+       "file": "2026-09-15_ipswich_22.jpg",
+       "url": "https://pbs.twimg.com/media/HSScPL6W4AAnjFM?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-15_ipswich_23.jpg",
+       "url": "https://pbs.twimg.com/media/HSScPNsW0AAvxYA?format=jpg&name=orig"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-09-19",
+   "competition": "Premier League",
+   "team": "Men",
+   "home": "Brighton",
+   "away": "Arsenal",
+   "opponent": "Brighton",
+   "venue": "A",
+   "score": "3-0",
+   "xg": "1.6-1.3",
+   "image_count": 23,
+   "team_stats": {
+    "Goals": [
+     "3",
+     "0"
+    ],
+    "Expected Goals": [
+     "1.6",
+     "1.3"
+    ],
+    "Shots": [
+     "17",
+     "9"
+    ],
+    "Shots On Target (PSxG)": [
+     "5 (1.7)",
+     "2 (1.4)"
+    ],
+    "Open Play Shots": [
+     "12",
+     "6"
+    ],
+    "Possession": [
+     "40.3%",
+     "59.7%"
+    ],
+    "Passes (Completed)": [
+     "353 (262)",
+     "523 (434)"
+    ],
+    "Field Tilt": [
+     "46.8%",
+     "53.2%"
+    ],
+    "Final Third Entries": [
+     "40",
+     "47"
+    ],
+    "xT Created": [
+     "1.8",
+     "1.6"
+    ],
+    "Progressive Passes": [
+     "23",
+     "22"
+    ],
+    "Dribbles (Successful)": [
+     "13 (4)",
+     "19 (8)"
+    ],
+    "Tackles (Successful)": [
+     "56 (16)",
+     "28 (13)"
+    ],
+    "Interceptions": [
+     "11",
+     "6"
+    ],
+    "Clearances": [
+     "21",
+     "15"
+    ]
+   },
+   "full_time_post": "https://x.com/scottjwillis/status/2101339336213967350",
+   "posts": [
+    {
+     "url": "https://x.com/scottjwillis/status/2101339336213967350",
+     "title": "Brighton 3 - 0 Arsenal | Full Time | 1.6 - 1.3 xG",
+     "posted_utc": "2026-09-19T15:55:13.000Z",
+     "images": [
+      {
+       "file": "2026-09-19_brighton_1.jpg",
+       "url": "https://pbs.twimg.com/media/HSl0_JfXEAEIspp?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-19_brighton_2.jpg",
+       "url": "https://pbs.twimg.com/media/HSl0_FVWwAAm6jA?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-19_brighton_3.jpg",
+       "url": "https://pbs.twimg.com/media/HSl0_FgXQAEQhmf?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-19_brighton_4.jpg",
+       "url": "https://pbs.twimg.com/media/HSl0_J5XkAAI_82?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2101339921537520053",
+     "title": "Brighton 3 (1.6)-(1.3) 0 Arsenal",
+     "posted_utc": "2026-09-19T15:57:32.000Z",
+     "images": [
+      {
+       "file": "2026-09-19_brighton_5.jpg",
+       "url": "https://pbs.twimg.com/media/HSl1hOWXMAE74_Z?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-19_brighton_6.jpg",
+       "url": "https://pbs.twimg.com/media/HSl1hOTXsAElRRO?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-19_brighton_7.jpg",
+       "url": "https://pbs.twimg.com/media/HSl1hP-XAAAnPjM?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-19_brighton_8.jpg",
+       "url": "https://pbs.twimg.com/media/HSl1hOoXEAALvjI?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2101341243238129892",
+     "title": "Brighton 3 - 0 Arsenal - Passing Networks",
+     "posted_utc": "2026-09-19T16:02:48.000Z",
+     "images": [
+      {
+       "file": "2026-09-19_brighton_9.jpg",
+       "url": "https://pbs.twimg.com/media/HSl2uGBXIAAV0sb?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-19_brighton_10.jpg",
+       "url": "https://pbs.twimg.com/media/HSl2uHLWwAA5eV4?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-19_brighton_11.jpg",
+       "url": "https://pbs.twimg.com/media/HSl2uK9WwAATbDA?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-19_brighton_12.jpg",
+       "url": "https://pbs.twimg.com/media/HSl2uHJXoAAxP03?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2101342437822104008",
+     "title": "Arsenal - Attacking Contribution | Brighton 3 - 0 Arsenal",
+     "posted_utc": "2026-09-19T16:07:32.000Z",
+     "images": [
+      {
+       "file": "2026-09-19_brighton_13.jpg",
+       "url": "https://pbs.twimg.com/media/HSl3zrqWQAAm9ka?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-19_brighton_14.jpg",
+       "url": "https://pbs.twimg.com/media/HSl3zudWIAARPim?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-19_brighton_15.jpg",
+       "url": "https://pbs.twimg.com/media/HSl3zqWXsAAgEjX?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-19_brighton_16.jpg",
+       "url": "https://pbs.twimg.com/media/HSl3zrgXsAAF0ls?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2101344956782633374",
+     "title": "Brighton 3 - 0 Arsenal - Shot Maps",
+     "posted_utc": "2026-09-19T16:17:33.000Z",
+     "images": [
+      {
+       "file": "2026-09-19_brighton_17.jpg",
+       "url": "https://pbs.twimg.com/media/HSl6GL5XAAAQASI?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-19_brighton_18.jpg",
+       "url": "https://pbs.twimg.com/media/HSl6GTTXoAAzmuY?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-19_brighton_19.jpg",
+       "url": "https://pbs.twimg.com/media/HSl6GF5WMAAXpK2?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-19_brighton_20.jpg",
+       "url": "https://pbs.twimg.com/media/HSl6GFhXoAEMsYu?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2101347469904802167",
+     "title": "Brighton 3 - 0 Arsenal - Deserve to Win Meter",
+     "posted_utc": "2026-09-19T16:27:32.000Z",
+     "images": [
+      {
+       "file": "2026-09-19_brighton_21.jpg",
+       "url": "https://pbs.twimg.com/media/HSl8YonWsAAVA8l?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2101349988001358030",
+     "title": "Arsenal's Ground and Air Duels - Brighton (3 - 0) Arsenal",
+     "posted_utc": "2026-09-19T16:37:32.000Z",
+     "images": [
+      {
+       "file": "2026-09-19_brighton_22.jpg",
+       "url": "https://pbs.twimg.com/media/HSl-rJ1XEAERPLA?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-09-19_brighton_23.jpg",
+       "url": "https://pbs.twimg.com/media/HSl-rFKWwAArJXq?format=jpg&name=orig"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "competition": "Premier League",
+   "team": "Men",
+   "home": "Arsenal",
+   "away": "Leeds",
+   "opponent": "Leeds",
+   "venue": "H",
+   "score": "2-1",
+   "xg": "2.1-0.5",
+   "image_count": 23,
+   "team_stats": {
+    "Goals": [
+     "2",
+     "1"
+    ],
+    "Expected Goals": [
+     "2.1",
+     "0.5"
+    ],
+    "Shots": [
+     "13",
+     "11"
+    ],
+    "Shots On Target (PSxG)": [
+     "6 (3.0)",
+     "5 (1.4)"
+    ],
+    "Open Play Shots": [
+     "12",
+     "6"
+    ],
+    "Possession": [
+     "58.5%",
+     "41.5%"
+    ],
+    "Passes (Completed)": [
+     "544 (450)",
+     "386 (289)"
+    ],
+    "Field Tilt": [
+     "70.3%",
+     "29.7%"
+    ],
+    "Final Third Entries": [
+     "51",
+     "35"
+    ],
+    "xT Created": [
+     "2.1",
+     "1.1"
+    ],
+    "Progressive Passes": [
+     "24",
+     "12"
+    ],
+    "Dribbles (Successful)": [
+     "10 (6)",
+     "8 (3)"
+    ],
+    "Tackles (Successful)": [
+     "30 (12)",
+     "40 (10)"
+    ],
+    "Interceptions": [
+     "7",
+     "10"
+    ],
+    "Clearances": [
+     "25",
+     "23"
+    ]
+   },
+   "full_time_post": "https://x.com/scottjwillis/status/2108912102563811508",
+   "posts": [
+    {
+     "url": "https://x.com/scottjwillis/status/2108912102563811508",
+     "title": "Arsenal 2 - 1 Leeds | Full Time | 2.1 - 0.5 xG",
+     "posted_utc": "2026-10-10T13:26:41.000Z",
+     "images": [
+      {
+       "file": "2026-10-10_leeds_1.jpg",
+       "url": "https://pbs.twimg.com/media/HURcYNwWMAEfeTM?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-10_leeds_2.jpg",
+       "url": "https://pbs.twimg.com/media/HURcYIYXgAA-WR4?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-10_leeds_3.jpg",
+       "url": "https://pbs.twimg.com/media/HURcYKWWcAAXMXN?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-10_leeds_4.jpg",
+       "url": "https://pbs.twimg.com/media/HURcYKcX0AEeuSZ?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2108912699027452090",
+     "title": "Arsenal 2 (2.1)-(0.5) 1 Leeds",
+     "posted_utc": "2026-10-10T13:29:03.000Z",
+     "images": [
+      {
+       "file": "2026-10-10_leeds_5.jpg",
+       "url": "https://pbs.twimg.com/media/HURc6sgWUAEjmNh?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-10_leeds_6.jpg",
+       "url": "https://pbs.twimg.com/media/HURc68KWYAA2GhX?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-10_leeds_7.jpg",
+       "url": "https://pbs.twimg.com/media/HURc673XMAE0V_g?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-10_leeds_8.jpg",
+       "url": "https://pbs.twimg.com/media/HURc65WXcAAUOBQ?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2108913955930292383",
+     "title": "Arsenal 2 - 1 Leeds - Passing Networks",
+     "posted_utc": "2026-10-10T13:34:03.000Z",
+     "images": [
+      {
+       "file": "2026-10-10_leeds_9.jpg",
+       "url": "https://pbs.twimg.com/media/HUReEG_XsAAndgd?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-10_leeds_10.jpg",
+       "url": "https://pbs.twimg.com/media/HUReEFbW4AEj2cQ?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-10_leeds_11.jpg",
+       "url": "https://pbs.twimg.com/media/HUReEEtXcAAWBTO?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-10_leeds_12.jpg",
+       "url": "https://pbs.twimg.com/media/HUReEGjW8AAQCLK?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2108915212250206445",
+     "title": "Arsenal - Attacking Contribution | Arsenal 2 - 1 Leeds",
+     "posted_utc": "2026-10-10T13:39:03.000Z",
+     "images": [
+      {
+       "file": "2026-10-10_leeds_13.jpg",
+       "url": "https://pbs.twimg.com/media/HURfNMcWwAAnBOJ?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-10_leeds_14.jpg",
+       "url": "https://pbs.twimg.com/media/HURfNJTXIAA-cx4?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-10_leeds_15.jpg",
+       "url": "https://pbs.twimg.com/media/HURfNJ8XMAASBwJ?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-10_leeds_16.jpg",
+       "url": "https://pbs.twimg.com/media/HURfNNVWcAAPHd_?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2108917730913009940",
+     "title": "Arsenal 2 - 1 Leeds - Shot Maps",
+     "posted_utc": "2026-10-10T13:49:03.000Z",
+     "images": [
+      {
+       "file": "2026-10-10_leeds_17.jpg",
+       "url": "https://pbs.twimg.com/media/HURhfx7WsAA3WMq?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-10_leeds_18.jpg",
+       "url": "https://pbs.twimg.com/media/HURhfx4W0AA9ZDj?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-10_leeds_19.jpg",
+       "url": "https://pbs.twimg.com/media/HURhfscXwAAy8Vb?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-10_leeds_20.jpg",
+       "url": "https://pbs.twimg.com/media/HURhfrOXYAEFp5N?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2108920246295814490",
+     "title": "Arsenal 2 - 1 Leeds - Deserve to Win Meter",
+     "posted_utc": "2026-10-10T13:59:03.000Z",
+     "images": [
+      {
+       "file": "2026-10-10_leeds_21.jpg",
+       "url": "https://pbs.twimg.com/media/HURjyOGWMAAVLXh?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2108922770289512890",
+     "title": "Arsenal's Ground and Air Duels - Arsenal (2 - 1) Leeds",
+     "posted_utc": "2026-10-10T14:09:04.000Z",
+     "images": [
+      {
+       "file": "2026-10-10_leeds_22.jpg",
+       "url": "https://pbs.twimg.com/media/HURmFHNWUAATB2R?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-10_leeds_23.jpg",
+       "url": "https://pbs.twimg.com/media/HURmFFWWkAAk4TP?format=jpg&name=orig"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-13",
+   "competition": "Champions League",
+   "team": "Men",
+   "home": "Arsenal",
+   "away": "Lille",
+   "opponent": "Lille",
+   "venue": "H",
+   "score": "3-0",
+   "xg": "1.6-0.3",
+   "image_count": 23,
+   "team_stats": {
+    "Goals": [
+     "3",
+     "0"
+    ],
+    "Expected Goals": [
+     "1.6",
+     "0.3"
+    ],
+    "Shots": [
+     "16",
+     "4"
+    ],
+    "Shots On Target (PSxG)": [
+     "8 (1.9)",
+     "0 (0.0)"
+    ],
+    "Open Play Shots": [
+     "15",
+     "4"
+    ],
+    "Possession": [
+     "58.0%",
+     "42.0%"
+    ],
+    "Passes (Completed)": [
+     "577 (496)",
+     "417 (351)"
+    ],
+    "Field Tilt": [
+     "88.1%",
+     "11.9%"
+    ],
+    "Final Third Entries": [
+     "75",
+     "20"
+    ],
+    "xT Created": [
+     "2.4",
+     "0.4"
+    ],
+    "Progressive Passes": [
+     "41",
+     "8"
+    ],
+    "Dribbles (Successful)": [
+     "20 (10)",
+     "7 (3)"
+    ],
+    "Tackles (Successful)": [
+     "40 (16)",
+     "48 (17)"
+    ],
+    "Interceptions": [
+     "6",
+     "8"
+    ],
+    "Clearances": [
+     "8",
+     "39"
+    ]
+   },
+   "full_time_post": "https://x.com/scottjwillis/status/2110111248809423270",
+   "posts": [
+    {
+     "url": "https://x.com/scottjwillis/status/2110111248809423270",
+     "title": "Arsenal 3 - 0 Lille | Full Time | 1.6 - 0.3 xG",
+     "posted_utc": "2026-10-13T20:51:40.000Z",
+     "images": [
+      {
+       "file": "2026-10-13_lille_1.jpg",
+       "url": "https://pbs.twimg.com/media/HUie_pAX0AAdr5N?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-13_lille_2.jpg",
+       "url": "https://pbs.twimg.com/media/HUie_spXwAEVow7?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-13_lille_3.jpg",
+       "url": "https://pbs.twimg.com/media/HUie_nWW0AET_UN?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-13_lille_4.jpg",
+       "url": "https://pbs.twimg.com/media/HUie_rmWoAERUpK?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2110111849735700840",
+     "title": "Arsenal 3 (1.6)-(0.3) 0 Lille",
+     "posted_utc": "2026-10-13T20:54:03.000Z",
+     "images": [
+      {
+       "file": "2026-10-13_lille_5.jpg",
+       "url": "https://pbs.twimg.com/media/HUifirWWIAAXi57?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-13_lille_6.jpg",
+       "url": "https://pbs.twimg.com/media/HUifiowWIAAKdU0?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-13_lille_7.jpg",
+       "url": "https://pbs.twimg.com/media/HUifitEXcAAvbYf?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-13_lille_8.jpg",
+       "url": "https://pbs.twimg.com/media/HUifipeWEAEPKR8?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2110113112745447861",
+     "title": "Arsenal 3 - 0 Lille - Passing Networks",
+     "posted_utc": "2026-10-13T20:59:04.000Z",
+     "images": [
+      {
+       "file": "2026-10-13_lille_9.jpg",
+       "url": "https://pbs.twimg.com/media/HUigsHJX0AAhzho?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-13_lille_10.jpg",
+       "url": "https://pbs.twimg.com/media/HUigsCcWsAERRqM?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-13_lille_11.jpg",
+       "url": "https://pbs.twimg.com/media/HUigsLAXEAETeaY?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-13_lille_12.jpg",
+       "url": "https://pbs.twimg.com/media/HUigsCoXYAAQbV7?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2110114368306229285",
+     "title": "Arsenal - Attacking Contribution | Arsenal 3 - 0 Lille",
+     "posted_utc": "2026-10-13T21:04:04.000Z",
+     "images": [
+      {
+       "file": "2026-10-13_lille_13.jpg",
+       "url": "https://pbs.twimg.com/media/HUih1KvWQAELcJg?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-13_lille_14.jpg",
+       "url": "https://pbs.twimg.com/media/HUih1FJWoAAxrPR?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-13_lille_15.jpg",
+       "url": "https://pbs.twimg.com/media/HUih1F-W4AIsUBY?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-13_lille_16.jpg",
+       "url": "https://pbs.twimg.com/media/HUih1PrXYAEWxyo?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2110116882397196501",
+     "title": "Arsenal 3 - 0 Lille - Shot Maps",
+     "posted_utc": "2026-10-13T21:14:03.000Z",
+     "images": [
+      {
+       "file": "2026-10-13_lille_17.jpg",
+       "url": "https://pbs.twimg.com/media/HUikHleWoAEGtVf?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-13_lille_18.jpg",
+       "url": "https://pbs.twimg.com/media/HUikHl2XEAAhRjk?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-13_lille_19.jpg",
+       "url": "https://pbs.twimg.com/media/HUikHdAXYAAuVTA?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-13_lille_20.jpg",
+       "url": "https://pbs.twimg.com/media/HUikHg5XYAE1XKv?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2110119400204353724",
+     "title": "Arsenal 3 - 0 Lille - Deserve to Win Meter",
+     "posted_utc": "2026-10-13T21:24:03.000Z",
+     "images": [
+      {
+       "file": "2026-10-13_lille_21.jpg",
+       "url": "https://pbs.twimg.com/media/HUimaKOWUAIcf2-?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2110121917071925595",
+     "title": "Arsenal's Ground and Air Duels - Arsenal (3 - 0) Lille",
+     "posted_utc": "2026-10-13T21:34:03.000Z",
+     "images": [
+      {
+       "file": "2026-10-13_lille_22.jpg",
+       "url": "https://pbs.twimg.com/media/HUiost-XkAAWCgp?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-13_lille_23.jpg",
+       "url": "https://pbs.twimg.com/media/HUiostaXIAAfwGN?format=jpg&name=orig"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-18",
+   "competition": "Premier League",
+   "team": "Men",
+   "home": "Forest",
+   "away": "Arsenal",
+   "opponent": "Forest",
+   "venue": "A",
+   "score": "0-1",
+   "xg": "0.8-0.8",
+   "image_count": 23,
+   "team_stats": {
+    "Goals": [
+     "0",
+     "1"
+    ],
+    "Expected Goals": [
+     "0.8",
+     "0.8"
+    ],
+    "Shots": [
+     "14",
+     "9"
+    ],
+    "Shots On Target (PSxG)": [
+     "2 (0.2)",
+     "1 (0.1)"
+    ],
+    "Open Play Shots": [
+     "7",
+     "6"
+    ],
+    "Possession": [
+     "26.2%",
+     "73.8%"
+    ],
+    "Passes (Completed)": [
+     "237 (155)",
+     "668 (582)"
+    ],
+    "Field Tilt": [
+     "22.4%",
+     "77.6%"
+    ],
+    "Final Third Entries": [
+     "22",
+     "78"
+    ],
+    "xT Created": [
+     "0.9",
+     "2.2"
+    ],
+    "Progressive Passes": [
+     "10",
+     "25"
+    ],
+    "Dribbles (Successful)": [
+     "7 (5)",
+     "13 (6)"
+    ],
+    "Tackles (Successful)": [
+     "49 (22)",
+     "29 (9)"
+    ],
+    "Interceptions": [
+     "7",
+     "7"
+    ],
+    "Clearances": [
+     "31",
+     "16"
+    ]
+   },
+   "full_time_post": "https://x.com/scottjwillis/status/2111871267695444332",
+   "posts": [
+    {
+     "url": "https://x.com/scottjwillis/status/2111871267695444332",
+     "title": "Forest 0 - 1 Arsenal | Full Time | 0.8 - 0.8 xG",
+     "posted_utc": "2026-10-18T17:25:21.000Z",
+     "images": [
+      {
+       "file": "2026-10-18_forest_1.jpg",
+       "url": "https://pbs.twimg.com/media/HU7fuP8XEAAAi0M?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-18_forest_2.jpg",
+       "url": "https://pbs.twimg.com/media/HU7fuN1XYAAvhyS?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-18_forest_3.jpg",
+       "url": "https://pbs.twimg.com/media/HU7fuRAWcAAAuTY?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-18_forest_4.jpg",
+       "url": "https://pbs.twimg.com/media/HU7fuPMXcAA0qL2?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2111871818600497421",
+     "title": "Forest 0 (0.8)-(0.8) 1 Arsenal",
+     "posted_utc": "2026-10-18T17:27:32.000Z",
+     "images": [
+      {
+       "file": "2026-10-18_forest_5.jpg",
+       "url": "https://pbs.twimg.com/media/HU7gOWOXkAAA1YL?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-18_forest_6.jpg",
+       "url": "https://pbs.twimg.com/media/HU7gOWVXIAAGAQ2?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-18_forest_7.jpg",
+       "url": "https://pbs.twimg.com/media/HU7gOWcXAAAR5Qe?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-18_forest_8.jpg",
+       "url": "https://pbs.twimg.com/media/HU7gOUMWYAA1B4p?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2111873077747318852",
+     "title": "Forest 0 - 1 Arsenal - Passing Networks",
+     "posted_utc": "2026-10-18T17:32:33.000Z",
+     "images": [
+      {
+       "file": "2026-10-18_forest_9.jpg",
+       "url": "https://pbs.twimg.com/media/HU7hXloXAAAoVsx?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-18_forest_10.jpg",
+       "url": "https://pbs.twimg.com/media/HU7hXl4W4AA59D8?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-18_forest_11.jpg",
+       "url": "https://pbs.twimg.com/media/HU7hXmEW8AAgy-h?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-18_forest_12.jpg",
+       "url": "https://pbs.twimg.com/media/HU7hXl3XgAEOOZ0?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2111874336365703556",
+     "title": "Arsenal - Attacking Contribution | Forest 0 - 1 Arsenal",
+     "posted_utc": "2026-10-18T17:37:33.000Z",
+     "images": [
+      {
+       "file": "2026-10-18_forest_13.jpg",
+       "url": "https://pbs.twimg.com/media/HU7ig3pWoAEhask?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-18_forest_14.jpg",
+       "url": "https://pbs.twimg.com/media/HU7ig3iW8AAfmwl?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-18_forest_15.jpg",
+       "url": "https://pbs.twimg.com/media/HU7ig3tXkAEYyhH?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-18_forest_16.jpg",
+       "url": "https://pbs.twimg.com/media/HU7ig5wWMAAz-8K?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2111876854160171086",
+     "title": "Forest 0 - 1 Arsenal - Shot Maps",
+     "posted_utc": "2026-10-18T17:47:33.000Z",
+     "images": [
+      {
+       "file": "2026-10-18_forest_17.jpg",
+       "url": "https://pbs.twimg.com/media/HU7kzaIWgAAuvDI?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-18_forest_18.jpg",
+       "url": "https://pbs.twimg.com/media/HU7kzcOXQAA6GdY?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-18_forest_19.jpg",
+       "url": "https://pbs.twimg.com/media/HU7kzRkWEAANP4D?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-18_forest_20.jpg",
+       "url": "https://pbs.twimg.com/media/HU7kzQaXUAAyC3a?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2111879368716718321",
+     "title": "Forest 0 - 1 Arsenal - Deserve to Win Meter",
+     "posted_utc": "2026-10-18T17:57:32.000Z",
+     "images": [
+      {
+       "file": "2026-10-18_forest_21.jpg",
+       "url": "https://pbs.twimg.com/media/HU7nF1sWkAAvxCZ?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2111881885252976974",
+     "title": "Arsenal's Ground and Air Duels - Forest (0 - 1) Arsenal",
+     "posted_utc": "2026-10-18T18:07:32.000Z",
+     "images": [
+      {
+       "file": "2026-10-18_forest_22.jpg",
+       "url": "https://pbs.twimg.com/media/HU7pYTDW4AAqi_v?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-18_forest_23.jpg",
+       "url": "https://pbs.twimg.com/media/HU7pYXaXEAAxEjf?format=jpg&name=orig"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-21",
+   "competition": "Champions League",
+   "team": "Men",
+   "home": "FC Bayern",
+   "away": "Arsenal",
+   "opponent": "FC Bayern",
+   "venue": "A",
+   "score": "2-2",
+   "xg": "2.2-1.1",
+   "image_count": 23,
+   "team_stats": {
+    "Goals": [
+     "2",
+     "2"
+    ],
+    "Expected Goals": [
+     "2.2",
+     "1.1"
+    ],
+    "Shots": [
+     "13",
+     "14"
+    ],
+    "Shots On Target (PSxG)": [
+     "5 (2.6)",
+     "5 (1.7)"
+    ],
+    "Open Play Shots": [
+     "12",
+     "7"
+    ],
+    "Possession": [
+     "46.1%",
+     "53.9%"
+    ],
+    "Passes (Completed)": [
+     "447 (379)",
+     "523 (444)"
+    ],
+    "Field Tilt": [
+     "39.1%",
+     "60.9%"
+    ],
+    "Final Third Entries": [
+     "48",
+     "60"
+    ],
+    "xT Created": [
+     "1.5",
+     "1.7"
+    ],
+    "Progressive Passes": [
+     "21",
+     "22"
+    ],
+    "Dribbles (Successful)": [
+     "12 (5)",
+     "19 (10)"
+    ],
+    "Tackles (Successful)": [
+     "50 (15)",
+     "35 (17)"
+    ],
+    "Interceptions": [
+     "2",
+     "11"
+    ],
+    "Clearances": [
+     "26",
+     "14"
+    ]
+   },
+   "full_time_post": "https://x.com/scottjwillis/status/2113010752629907836",
+   "posts": [
+    {
+     "url": "https://x.com/scottjwillis/status/2113010752629907836",
+     "title": "FC Bayern 2 - 2 Arsenal | Full Time | 2.2 - 1.1 xG",
+     "posted_utc": "2026-10-21T20:53:15.000Z",
+     "images": [
+      {
+       "file": "2026-10-21_fc-bayern_1.jpg",
+       "url": "https://pbs.twimg.com/media/HVLsFBkWMAA_Fvr?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-21_fc-bayern_2.jpg",
+       "url": "https://pbs.twimg.com/media/HVLsE3-WkAA4qGa?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-21_fc-bayern_3.jpg",
+       "url": "https://pbs.twimg.com/media/HVLsE5rX0AAvtj6?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-21_fc-bayern_4.jpg",
+       "url": "https://pbs.twimg.com/media/HVLsE8IX0AA8dCh?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2113011327945908662",
+     "title": "FC Bayern 2 (2.2)-(1.1) 2 Arsenal",
+     "posted_utc": "2026-10-21T20:55:33.000Z",
+     "images": [
+      {
+       "file": "2026-10-21_fc-bayern_5.jpg",
+       "url": "https://pbs.twimg.com/media/HVLsmijWMAEwwad?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-21_fc-bayern_6.jpg",
+       "url": "https://pbs.twimg.com/media/HVLsmhnWEAAnO8Y?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-21_fc-bayern_7.jpg",
+       "url": "https://pbs.twimg.com/media/HVLsmiuXwAAZAD8?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-21_fc-bayern_8.jpg",
+       "url": "https://pbs.twimg.com/media/HVLsmhIWQAAHLwf?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2113012923765309654",
+     "title": "FC Bayern 2 - 2 Arsenal - Passing Networks",
+     "posted_utc": "2026-10-21T21:01:53.000Z",
+     "images": [
+      {
+       "file": "2026-10-21_fc-bayern_9.jpg",
+       "url": "https://pbs.twimg.com/media/HVLuDceWQAAd90f?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-21_fc-bayern_10.jpg",
+       "url": "https://pbs.twimg.com/media/HVLuDQBXcAAbDdr?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-21_fc-bayern_11.jpg",
+       "url": "https://pbs.twimg.com/media/HVLuDL_WgAAvZBU?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-21_fc-bayern_12.jpg",
+       "url": "https://pbs.twimg.com/media/HVLuDOCW8AErJ9d?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2113013845157408781",
+     "title": "Arsenal - Attacking Contribution | FC Bayern 2 - 2 Arsenal",
+     "posted_utc": "2026-10-21T21:05:33.000Z",
+     "images": [
+      {
+       "file": "2026-10-21_fc-bayern_13.jpg",
+       "url": "https://pbs.twimg.com/media/HVLu5BYWoAIaglh?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-21_fc-bayern_14.jpg",
+       "url": "https://pbs.twimg.com/media/HVLu47KW8AEb-zt?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-21_fc-bayern_15.jpg",
+       "url": "https://pbs.twimg.com/media/HVLu5BaWIAA1Gc-?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-21_fc-bayern_16.jpg",
+       "url": "https://pbs.twimg.com/media/HVLu4_zXIAATJ4i?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2113016361840415159",
+     "title": "FC Bayern 2 - 2 Arsenal - Shot Maps",
+     "posted_utc": "2026-10-21T21:15:33.000Z",
+     "images": [
+      {
+       "file": "2026-10-21_fc-bayern_17.jpg",
+       "url": "https://pbs.twimg.com/media/HVLxLhiWwAAk4xl?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-21_fc-bayern_18.jpg",
+       "url": "https://pbs.twimg.com/media/HVLxLfXXYAAyaRT?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-21_fc-bayern_19.jpg",
+       "url": "https://pbs.twimg.com/media/HVLxLaYW4AA7MUp?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-21_fc-bayern_20.jpg",
+       "url": "https://pbs.twimg.com/media/HVLxLZuWkAADrnm?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2113018878150193352",
+     "title": "FC Bayern 2 - 2 Arsenal - Deserve to Win Meter",
+     "posted_utc": "2026-10-21T21:25:33.000Z",
+     "images": [
+      {
+       "file": "2026-10-21_fc-bayern_21.jpg",
+       "url": "https://pbs.twimg.com/media/HVLzd--WsAARAgI?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2113021393205940587",
+     "title": "Arsenal's Ground and Air Duels - FC Bayern (2 - 2) Arsenal",
+     "posted_utc": "2026-10-21T21:35:32.000Z",
+     "images": [
+      {
+       "file": "2026-10-21_fc-bayern_22.jpg",
+       "url": "https://pbs.twimg.com/media/HVL1wZaWcAI-1JI?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-21_fc-bayern_23.jpg",
+       "url": "https://pbs.twimg.com/media/HVL1wZxXMAAZXZK?format=jpg&name=orig"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-24",
+   "competition": "Premier League",
+   "team": "Men",
+   "home": "Arsenal",
+   "away": "Everton",
+   "opponent": "Everton",
+   "venue": "H",
+   "score": "2-0",
+   "xg": "1.8-0.4",
+   "image_count": 26,
+   "team_stats": {
+    "Goals": [
+     "2",
+     "0"
+    ],
+    "Expected Goals": [
+     "1.8",
+     "0.4"
+    ],
+    "Shots": [
+     "20",
+     "8"
+    ],
+    "Shots On Target (PSxG)": [
+     "4 (2.6)",
+     "3 (0.3)"
+    ],
+    "Open Play Shots": [
+     "13",
+     "8"
+    ],
+    "Possession": [
+     "58.1%",
+     "41.9%"
+    ],
+    "Passes (Completed)": [
+     "539 (452)",
+     "389 (323)"
+    ],
+    "Field Tilt": [
+     "64.2%",
+     "35.8%"
+    ],
+    "Final Third Entries": [
+     "61",
+     "51"
+    ],
+    "xT Created": [
+     "2.8",
+     "1.1"
+    ],
+    "Progressive Passes": [
+     "35",
+     "21"
+    ],
+    "Dribbles (Successful)": [
+     "13 (5)",
+     "11 (7)"
+    ],
+    "Tackles (Successful)": [
+     "37 (13)",
+     "44 (17)"
+    ],
+    "Interceptions": [
+     "5",
+     "7"
+    ],
+    "Clearances": [
+     "14",
+     "31"
+    ]
+   },
+   "full_time_post": "https://x.com/scottjwillis/status/2114023423902875722",
+   "posts": [
+    {
+     "url": "https://x.com/scottjwillis/status/2114023423902875722",
+     "title": "Arsenal 2 - 0 Everton | Full Time | 1.8 - 0.4 xG",
+     "posted_utc": "2026-10-24T15:57:15.000Z",
+     "images": [
+      {
+       "file": "2026-10-24_everton_1.jpg",
+       "url": "https://pbs.twimg.com/media/HVaFGQ1XkAAZH_l?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-24_everton_2.jpg",
+       "url": "https://pbs.twimg.com/media/HVaFGKMXwAAh6Qt?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-24_everton_3.jpg",
+       "url": "https://pbs.twimg.com/media/HVaFGKMWwAA3ISs?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-24_everton_4.jpg",
+       "url": "https://pbs.twimg.com/media/HVaFGKVWAAAMZfg?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2114023999571099944",
+     "title": "Arsenal 2 (1.8)-(0.4) 0 Everton",
+     "posted_utc": "2026-10-24T15:59:32.000Z",
+     "images": [
+      {
+       "file": "2026-10-24_everton_5.jpg",
+       "url": "https://pbs.twimg.com/media/HVaFnvqWgAACkJ-?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-24_everton_6.jpg",
+       "url": "https://pbs.twimg.com/media/HVaFnx-XgAAHWoP?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-24_everton_7.jpg",
+       "url": "https://pbs.twimg.com/media/HVaFnx_WsAApBDV?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-24_everton_8.jpg",
+       "url": "https://pbs.twimg.com/media/HVaFnvvXUAAqo0-?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2114025409373220976",
+     "title": "Arsenal 2 - 0 Everton - Passing Networks",
+     "posted_utc": "2026-10-24T16:05:08.000Z",
+     "images": [
+      {
+       "file": "2026-10-24_everton_9.jpg",
+       "url": "https://pbs.twimg.com/media/HVaG5pJXIAEWrEU?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-24_everton_10.jpg",
+       "url": "https://pbs.twimg.com/media/HVaG5ncXUAALzVm?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-24_everton_11.jpg",
+       "url": "https://pbs.twimg.com/media/HVaG5xMWQAA4-tZ?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-24_everton_12.jpg",
+       "url": "https://pbs.twimg.com/media/HVaG50kWQAAUaw-?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2114026518040948933",
+     "title": "Arsenal - Attacking Contribution | Arsenal 2 - 0 Everton",
+     "posted_utc": "2026-10-24T16:09:33.000Z",
+     "images": [
+      {
+       "file": "2026-10-24_everton_13.jpg",
+       "url": "https://pbs.twimg.com/media/HVaH6WJWcAAdJDn?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-24_everton_14.jpg",
+       "url": "https://pbs.twimg.com/media/HVaH6VFXoAAVPDi?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-24_everton_15.jpg",
+       "url": "https://pbs.twimg.com/media/HVaH6RTXEAA-jEw?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-24_everton_16.jpg",
+       "url": "https://pbs.twimg.com/media/HVaH6YAW0AAaE52?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2114029034531107207",
+     "title": "Arsenal 2 - 0 Everton - Shot Maps",
+     "posted_utc": "2026-10-24T16:19:33.000Z",
+     "images": [
+      {
+       "file": "2026-10-24_everton_17.jpg",
+       "url": "https://pbs.twimg.com/media/HVaKM0JXkAAeXHc?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-24_everton_18.jpg",
+       "url": "https://pbs.twimg.com/media/HVaKMygXAAAzATz?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-24_everton_19.jpg",
+       "url": "https://pbs.twimg.com/media/HVaKMyIXAAA6IPM?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-24_everton_20.jpg",
+       "url": "https://pbs.twimg.com/media/HVaKMuDXIAAeCQx?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2114031550320775448",
+     "title": "Arsenal 2 - 0 Everton - Deserve to Win Meter",
+     "posted_utc": "2026-10-24T16:29:33.000Z",
+     "images": [
+      {
+       "file": "2026-10-24_everton_21.jpg",
+       "url": "https://pbs.twimg.com/media/HVaMfO7WoAE6vwJ?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2114034064948682991",
+     "title": "Arsenal's Ground and Air Duels - Arsenal (2 - 0) Everton",
+     "posted_utc": "2026-10-24T16:39:32.000Z",
+     "images": [
+      {
+       "file": "2026-10-24_everton_22.jpg",
+       "url": "https://pbs.twimg.com/media/HVaOxtGXsAAgkte?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-24_everton_23.jpg",
+       "url": "https://pbs.twimg.com/media/HVaOxsBWsAAjuPq?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2114065668983144611",
+     "title": "Martin Ødegaard, Performance - Arsenal vs Everton",
+     "posted_utc": "2026-10-24T18:45:07.000Z",
+     "images": [
+      {
+       "file": "2026-10-24_everton_24.jpg",
+       "url": "https://pbs.twimg.com/media/HVarhFrWEAAvq71?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-24_everton_25.jpg",
+       "url": "https://pbs.twimg.com/media/HVarhNgXAAAjHhx?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-10-24_everton_26.jpg",
+       "url": "https://pbs.twimg.com/media/HVarhNcWUAEpBl9?format=jpg&name=orig"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
