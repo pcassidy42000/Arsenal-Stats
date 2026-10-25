@@ -10,7 +10,7 @@ The 2026–27 archive starts with 13 matches and 298 images. Originals live in `
 - **Match gallery.** Pick a match. Graphics are grouped under the post they came from, with a link back to the source post.
 - **Competition filter.** All, Community Shield, Premier League, Champions League, League Cup.
 
-Click a thumbnail for the full-size image. Previous and next buttons, the left and right arrow keys, and swipe move through that match. Esc closes the lightbox. The footer of the lightbox links to the original image file on X and to the source post.
+Click a thumbnail for the full-size image. Previous and next buttons, the left and right arrow keys, and a horizontal swipe move through that match. Up and down buttons, the up and down arrow keys, and a vertical swipe move to the newer or older match in the current filter, opening the same kind of graphic. The caption shows the opponent and date. Esc closes the lightbox. The footer of the lightbox links to the original image file on X and to the source post.
 
 Scores in `data/matches.json` are stored home–away, the same way the posts are written. The site shows Arsenal's goals first, so an away win such as Villa 0–1 Arsenal is displayed as 1–0 W.
 

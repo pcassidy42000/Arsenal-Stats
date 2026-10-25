@@ -523,10 +523,26 @@ dialog.lb::backdrop { background: rgba(0, 0, 0, 0.82); }
 
 .lb-nav.prev { left: 10px; }
 .lb-nav.next { right: 10px; }
+.lb-nav.up,
+.lb-nav.down {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.lb-nav.up { top: 10px; }
+.lb-nav.down { top: auto; bottom: 10px; }
 .lb-nav:disabled { opacity: 0.3; cursor: default; }
+.lb-nav[hidden] { display: none; }
 
 .lb-links { display: flex; gap: 14px; flex-wrap: wrap; font-size: 14px; }
-.lb-title { margin: 0; color: var(--muted); font-size: 13px; text-align: right; }
+.lb-caption { min-width: 0; text-align: right; }
+.lb-match {
+  margin: 0;
+  font-family: var(--cond);
+  font-size: 22px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+}
+.lb-title { margin: 3px 0 0; color: var(--muted); font-size: 13px; }
 
 dialog.report {
   width: min(680px, calc(100vw - 20px));
@@ -600,7 +616,7 @@ dialog.report::backdrop { background: rgba(0, 0, 0, 0.82); }
   dialog.report { width: min(680px, calc(100vw - 12px)); max-height: 92dvh; }
   .report-frame { max-height: 92dvh; }
   .toolbar { top: 0; }
-  .lb-title { text-align: left; }
+  .lb-caption { text-align: left; }
   .lb-bottom { flex-direction: column; align-items: flex-start; }
   .post header { flex-direction: column; }
 }

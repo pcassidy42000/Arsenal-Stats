@@ -1,5 +1,6 @@
 import matchesFile from "../data/matches.json";
 import imageMeta from "../data/image-meta.json";
+import { equivalentImageIndex } from "./graphics.js";
 import { arsenalView, compareMatches, formatPair, ratesOf, recordOf, resultWord } from "./score.js";
 import { renderMarkdown } from "./markdown.js";
 import "./style.css";
@@ -448,10 +449,28 @@ function stepLightbox(delta) {
   paintLightbox();
 }
 
+function graphicMatches() {
+  return visibleMatches().filter((match) => flatImages(match).length > 0);
+}
+
+function stepMatch(direction) {
+  if (!state.lightbox) return;
+  const list = graphicMatches();
+  const at = list.findIndex((match) => match.date === state.lightbox.match.date);
+  const target = at < 0 ? null : list[at + direction];
+  if (!target) return;
+  const images = flatImages(target);
+  const index = equivalentImageIndex(state.lightbox.images, state.lightbox.index, images);
+  state.lightbox = { match: target, images, index: Math.max(0, index) };
+  paintLightbox();
+}
+
 function paintLightbox() {
   const dialog = ensureLightbox();
-  const { images, index } = state.lightbox;
+  const { match, images, index } = state.lightbox;
   const image = images[index];
+  const list = graphicMatches();
+  const at = list.findIndex((item) => item.date === match.date);
   dialog.replaceChildren(
     el("div", { class: "lb-frame" }, [
       el("div", { class: "lb-top" }, [
@@ -464,6 +483,14 @@ function paintLightbox() {
         }),
       ]),
       el("div", { class: "lb-stage" }, [
+        el("button", {
+          type: "button",
+          class: "lb-nav up",
+          "aria-label": "Newer match",
+          text: "↑",
+          hidden: at <= 0 ? "" : null,
+          onClick: () => stepMatch(-1),
+        }),
         el("button", {
           type: "button",
           class: "lb-nav prev",
@@ -484,6 +511,14 @@ function paintLightbox() {
           disabled: index === images.length - 1 ? "" : null,
           onClick: () => stepLightbox(1),
         }),
+        el("button", {
+          type: "button",
+          class: "lb-nav down",
+          "aria-label": "Older match",
+          text: "↓",
+          hidden: at < 0 || at >= list.length - 1 ? "" : null,
+          onClick: () => stepMatch(1),
+        }),
       ]),
       el("div", { class: "lb-bottom" }, [
         el("div", { class: "lb-links" }, [
@@ -500,7 +535,10 @@ function paintLightbox() {
             text: "Source post",
           }),
         ]),
-        el("p", { class: "lb-title", text: image.post.title || "" }),
+        el("div", { class: "lb-caption" }, [
+          el("p", { class: "lb-match", text: `${match.opponent} · ${formatDate(match.date)}` }),
+          el("p", { class: "lb-title", text: image.post.title || "" }),
+        ]),
       ]),
     ]),
   );
@@ -700,20 +738,33 @@ document.addEventListener("keydown", (event) => {
   } else if (event.key === "ArrowLeft") {
     event.preventDefault();
     stepLightbox(-1);
+  } else if (event.key === "ArrowUp") {
+    event.preventDefault();
+    stepMatch(-1);
+  } else if (event.key === "ArrowDown") {
+    event.preventDefault();
+    stepMatch(1);
   }
 });
 
-let touchX = null;
+let touchStart = null;
 document.addEventListener("touchstart", (event) => {
   if (!state.lightbox || state.report) return;
-  touchX = event.changedTouches[0].clientX;
+  const touch = event.changedTouches[0];
+  touchStart = { x: touch.clientX, y: touch.clientY };
 }, { passive: true });
 document.addEventListener("touchend", (event) => {
-  if (!state.lightbox || state.report || touchX == null) return;
-  const delta = event.changedTouches[0].clientX - touchX;
-  touchX = null;
-  if (Math.abs(delta) < 40) return;
-  stepLightbox(delta < 0 ? 1 : -1);
+  if (!state.lightbox || state.report || !touchStart) return;
+  const touch = event.changedTouches[0];
+  const dx = touch.clientX - touchStart.x;
+  const dy = touch.clientY - touchStart.y;
+  touchStart = null;
+  if (Math.abs(dy) >= 40 && Math.abs(dy) > Math.abs(dx)) {
+    stepMatch(dy < 0 ? -1 : 1);
+    return;
+  }
+  if (Math.abs(dx) < 40) return;
+  stepLightbox(dx < 0 ? 1 : -1);
 }, { passive: true });
 
 readHash();
