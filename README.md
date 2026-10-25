@@ -82,6 +82,12 @@ Optional. Point `report` at a Markdown file. The script copies it to `data/repor
 
 The fixture card shows a circular R on the graphics line only when `report` is set. It opens a scrollable dialog. Close, Esc, and a click on the backdrop dismiss it. The button click does not open a graphic.
 
+Optional `highlights` is an official YouTube https URL. The card shows a circular Y directly above the R, opening the video in a new tab. Leave it out when there is no verified highlights video and the Y stays hidden.
+
+```json
+"highlights": "https://www.youtube.com/watch?v=..."
+```
+
 ```json
 "report": "notes/2026-11-01-palace.md"
 ```

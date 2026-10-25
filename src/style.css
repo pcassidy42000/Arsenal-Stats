@@ -290,6 +290,20 @@ a { color: var(--gold); }
   gap: 8px;
 }
 
+.card-actions {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+  flex: 0 0 20px;
+}
+
+.highlights-btn {
+  position: absolute;
+  left: 0;
+  bottom: 22px;
+}
+
 .report-btn {
   width: 20px;
   height: 20px;
@@ -306,6 +320,7 @@ a { color: var(--gold); }
   line-height: 1;
   letter-spacing: 0;
   text-transform: none;
+  text-decoration: none;
   display: grid;
   place-items: center;
   cursor: pointer;
