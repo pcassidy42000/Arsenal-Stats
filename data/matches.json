@@ -6,6 +6,7 @@
  "matches": [
   {
    "date": "2026-08-16",
+   "report": "2026-08-16_man-city.md",
    "competition": "Community Shield",
    "team": "Men",
    "home": "Arsenal",
@@ -163,6 +164,7 @@
   },
   {
    "date": "2026-08-21",
+   "report": "2026-08-21_coventry.md",
    "competition": "Premier League",
    "team": "Men",
    "home": "Arsenal",
@@ -320,6 +322,7 @@
   },
   {
    "date": "2026-08-31",
+   "report": "2026-08-31_villa.md",
    "competition": "Premier League",
    "team": "Men",
    "home": "Villa",
@@ -477,6 +480,7 @@
   },
   {
    "date": "2026-09-06",
+   "report": "2026-09-06_chelsea.md",
    "competition": "Premier League",
    "team": "Men",
    "home": "Arsenal",
@@ -634,6 +638,7 @@
   },
   {
    "date": "2026-09-09",
+   "report": "2026-09-09_napoli.md",
    "competition": "Champions League",
    "team": "Men",
    "home": "Napoli",
@@ -791,6 +796,7 @@
   },
   {
    "date": "2026-09-12",
+   "report": "2026-09-12_sunderland.md",
    "competition": "Premier League",
    "team": "Men",
    "home": "Sunderland",
@@ -986,6 +992,7 @@
   },
   {
    "date": "2026-09-15",
+   "report": "2026-09-15_ipswich.md",
    "competition": "League Cup",
    "team": "Men",
    "home": "Ipswich",
@@ -1204,6 +1211,7 @@
   },
   {
    "date": "2026-09-19",
+   "report": "2026-09-19_brighton.md",
    "competition": "Premier League",
    "team": "Men",
    "home": "Brighton",
@@ -1422,6 +1430,7 @@
   },
   {
    "date": "2026-10-10",
+   "report": "2026-10-10_leeds.md",
    "competition": "Premier League",
    "team": "Men",
    "home": "Arsenal",
@@ -1640,6 +1649,7 @@
   },
   {
    "date": "2026-10-13",
+   "report": "2026-10-13_lille.md",
    "competition": "Champions League",
    "team": "Men",
    "home": "Arsenal",
@@ -1858,6 +1868,7 @@
   },
   {
    "date": "2026-10-18",
+   "report": "2026-10-18_forest.md",
    "competition": "Premier League",
    "team": "Men",
    "home": "Forest",
@@ -2076,6 +2087,7 @@
   },
   {
    "date": "2026-10-21",
+   "report": "2026-10-21_fc-bayern.md",
    "competition": "Champions League",
    "team": "Men",
    "home": "FC Bayern",
@@ -2294,6 +2306,7 @@
   },
   {
    "date": "2026-10-24",
+   "report": "2026-10-24_everton.md",
    "competition": "Premier League",
    "team": "Men",
    "home": "Arsenal",

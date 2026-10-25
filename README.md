@@ -76,6 +76,39 @@ scripts/add-match path/to/match.json
 
 That appends the match to `data/matches.json` (sorted by date), downloads each original into `public/images/`, and writes a 400px-wide thumbnail into `public/thumbs/`. Re-running a download for files already on disk:
 
+### Match report
+
+Optional. Point `report` at a Markdown file. The script copies it to `data/reports/<date>_<opponent-slug>.md` and stores that filename on the match. A file already in `data/reports/` can be named directly. Women's matches are still refused, and the report text is refused if it looks like one.
+
+The fixture card shows a small Report button only when `report` is set. The button opens a scrollable dialog. Close, Esc, and a click on the backdrop dismiss it. The button click does not fire the card's own click.
+
+```json
+"report": "notes/2026-11-01-palace.md"
+```
+
+Use this shape. Do not invent incidents, minutes, lineups, or quotes. If a substitution minute is not in the source, mark it approximate.
+
+```markdown
+**Arsenal 2-0 Palace, Premier League, Emirates Stadium, 1 November 2026**
+
+One short paragraph on the result.
+
+- **How it unfolded**
+  - 12': What happened, with the minute when the source gives one.
+- **Arteta's comments**
+  - "Quote from the manager."
+- **Arsenal lineup**
+  - XI: ...
+  - Bench: ...
+- **Subs**
+  - 60': Player on for player.
+  - Approx. 75': Player on for player (minute not stated exactly).
+- **Sources**
+  - [Arseblog match report](https://arseblog.news/...)
+```
+
+Commit the new file under `data/reports/` with `data/matches.json`.
+
 ```bash
 scripts/add-match --fetch
 ```
