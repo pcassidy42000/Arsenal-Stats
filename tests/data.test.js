@@ -20,6 +20,9 @@ test("archive is men's matches only", () => {
       }
     }
     assert.match(match.report, /^\d{4}-\d{2}-\d{2}_[a-z0-9-]+\.md$/);
+    if (match.highlights != null) {
+      assert.match(match.highlights, /^https:\/\/(?:www\.|m\.)?youtube\.com\/watch\?v=[\w-]{11}$|^https:\/\/youtu\.be\/[\w-]{11}$/);
+    }
     const reportPath = path.join(process.cwd(), "data", "reports", match.report);
     const report = fs.readFileSync(reportPath, "utf8");
     assert.match(report, /^\*\*Arsenal /);

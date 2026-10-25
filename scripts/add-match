@@ -7,6 +7,8 @@ Reads and writes data/matches.json. Originals land in public/images/ and
 An optional "report" field copies a Markdown file into
 data/reports/<date>_<opponent-slug>.md and stores that filename on the match.
 The site shows a circular R on that fixture only when the field is set.
+An optional "highlights" field is a YouTube https URL for the official
+highlights. The site shows a circular Y above the R only when it is set.
 Write an approximate substitution minute as ~65'. Omit the minute when it is unknown.
 
 Usage:
@@ -152,6 +154,20 @@ def attach_report(raw: dict, match: dict, match_json: Path) -> None:
     if source.resolve() != dest.resolve():
         dest.write_text(text if text.endswith("\n") else text + "\n", encoding="utf-8")
     match["report"] = filename
+
+
+def attach_highlights(raw: dict, match: dict) -> None:
+    """Record an optional official YouTube highlights URL."""
+    highlights = raw.get("highlights")
+    if highlights is None or highlights == "":
+        return
+    if not isinstance(highlights, str):
+        die("highlights must be a YouTube https URL")
+    url = https_url(highlights, "highlights")
+    host = urlparse(url).netloc.lower()
+    if host not in {"www.youtube.com", "youtube.com", "m.youtube.com", "youtu.be"}:
+        die("highlights must be a YouTube URL")
+    match["highlights"] = url
 
 
 def normalize_match(raw: dict) -> dict:
@@ -330,6 +346,7 @@ def add_match(path: Path) -> None:
     raw = json.loads(path.read_text(encoding="utf-8"))
     match = normalize_match(raw)
     attach_report(raw, match, path)
+    attach_highlights(raw, match)
     db = load_db()
     dates = [existing["date"] for existing in db.get("matches", [])]
     if match["date"] in dates:

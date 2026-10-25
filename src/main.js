@@ -265,6 +265,41 @@ function reportSource(match) {
   return entry ? entry[1] : null;
 }
 
+function highlightsUrl(match) {
+  const url = match.highlights;
+  if (typeof url !== "string" || !url) return null;
+  try {
+    const parsed = new URL(url);
+    const host = parsed.hostname.toLowerCase();
+    const allowed = host === "www.youtube.com" || host === "youtube.com" || host === "m.youtube.com" || host === "youtu.be";
+    if (parsed.protocol !== "https:" || !allowed) return null;
+    return url;
+  } catch {
+    return null;
+  }
+}
+
+function highlightsButton(match) {
+  const url = highlightsUrl(match);
+  if (!url) return null;
+  const link = el("a", {
+    class: "report-btn highlights-btn",
+    href: url,
+    target: "_blank",
+    rel: "noopener noreferrer",
+    text: "Y",
+    title: "Highlights",
+    "aria-label": "Highlights",
+  });
+  link.addEventListener("pointerdown", (event) => {
+    event.stopPropagation();
+  });
+  link.addEventListener("click", (event) => {
+    event.stopPropagation();
+  });
+  return link;
+}
+
 function reportButton(match) {
   const markdown = reportSource(match);
   if (!markdown) return null;
@@ -320,7 +355,7 @@ function renderFixture(match) {
     ]),
     el("div", { class: "count-row" }, [
       el("div", { class: "count", text: `${images.length} graphics` }),
-      reportButton(match),
+      el("div", { class: "card-actions" }, [highlightsButton(match), reportButton(match)]),
     ]),
   ]);
 
