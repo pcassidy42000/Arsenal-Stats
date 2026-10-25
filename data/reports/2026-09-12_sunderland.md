@@ -10,7 +10,7 @@ Bruno Guimaraes scored his first Arsenal goal and Bukayo Saka converted a stoppa
   - 53': from a Danso long throw, the referee gave Sunderland a penalty for Ezri Konsa's challenge on Ballard. VAR upheld it. Raya tipped Le Fee's penalty onto the post.
   - Approx. 56' (three minutes after the penalty): Rice found Guimaraes on the edge of the box and he finished into the top corner via the underside of the bar. Arsenal 1-0.
   - After that, minutes not stated: Ballard cleared a Havertz effort off the line. Guimaraes fired wide. Timber headed in from Odegaard's free kick and was flagged offside. Raya made a double save from Mukiele after Xhaka's cross. Gabriel and Brobbey were booked.
-  - Late, minutes not stated: Eberechi Eze and Martin Zubimendi replaced Tzolis and Rice, and Mikel Merino replaced Odegaard. Eze miskicked over on the counter.
+  - Eberechi Eze and Martin Zubimendi replaced Tzolis and Rice, and Mikel Merino replaced Odegaard. Eze miskicked over on the counter.
   - 90+6: Saka went down under pressure from Reinildo after holding him off, and scored the penalty. Roefs got a hand to it. Arsenal 2-0. Six minutes had been added.
 - **Arteta's comments**
   - "I'm extremely pleased to win again. We had a really tough week: Chelsea, Napoli, winning there and now against a really tough opponent in a difficult place. We had really good periods but didn't score, and after that they can suffocate you, especially when they decided to be really physical and very direct, and we had to overcome a situation that, in my opinion, was absolutely unacceptable at this level. I'm very worried and very sad because this can never be a penalty ever."
@@ -20,6 +20,6 @@ Bruno Guimaraes scored his first Arsenal goal and Bukayo Saka converted a stoppa
   - Bench: Kepa Arrizabalaga, Hincapie, Timber, Zubimendi, Merino, Guimaraes, Eze, Madueke, Gyokeres.
 - **Subs**
   - Half-time: Jurrien Timber on for Ben White; Bruno Guimaraes on for Myles Lewis-Skelly.
-  - Late on (exact minutes not stated): Eberechi Eze on for Christos Tzolis; Martin Zubimendi on for Declan Rice; Mikel Merino on for Martin Odegaard.
+  - Eberechi Eze on for Christos Tzolis; Martin Zubimendi on for Declan Rice; Mikel Merino on for Martin Odegaard.
 - **Sources**
   - [Arseblog match report](https://arseblog.news/2026/09/report-sunderland-0-2-arsenal-inc-goals-2/). Arteta quotes from the [post-Sunderland quotes round-up](https://arseblog.news/2026/09/post-sunderland-quotes-round-up-arteta-le-bris-raya-bruno-keown-upson-more/).
