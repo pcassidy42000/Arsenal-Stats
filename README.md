@@ -80,13 +80,13 @@ That appends the match to `data/matches.json` (sorted by date), downloads each o
 
 Optional. Point `report` at a Markdown file. The script copies it to `data/reports/<date>_<opponent-slug>.md` and stores that filename on the match. A file already in `data/reports/` can be named directly. Women's matches are still refused, and the report text is refused if it looks like one.
 
-The fixture card shows a small Report button only when `report` is set. The button opens a scrollable dialog. Close, Esc, and a click on the backdrop dismiss it. The button click does not fire the card's own click.
+The fixture card shows a circular R on the graphics line only when `report` is set. It opens a scrollable dialog. Close, Esc, and a click on the backdrop dismiss it. The button click does not open a graphic.
 
 ```json
 "report": "notes/2026-11-01-palace.md"
 ```
 
-Use this shape. Do not invent incidents, minutes, lineups, or quotes. If a substitution minute is not in the source, mark it approximate.
+Use this shape. Do not invent incidents, minutes, lineups, or quotes. Write an approximate substitution minute with a tilde, such as ~65'. If the minute is unknown, list the substitution with no minute.
 
 ```markdown
 **Arsenal 2-0 Palace, Premier League, Emirates Stadium, 1 November 2026**
@@ -102,7 +102,8 @@ One short paragraph on the result.
   - Bench: ...
 - **Subs**
   - 60': Player on for player.
-  - Approx. 75': Player on for player (minute not stated exactly).
+  - ~75': Player on for player.
+  - Player on for player.
 - **Sources**
   - [Arseblog match report](https://arseblog.news/...)
 ```

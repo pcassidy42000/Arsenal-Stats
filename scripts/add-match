@@ -6,7 +6,8 @@ Reads and writes data/matches.json. Originals land in public/images/ and
 
 An optional "report" field copies a Markdown file into
 data/reports/<date>_<opponent-slug>.md and stores that filename on the match.
-The site shows a Report button only when that field is set.
+The site shows a circular R on that fixture only when the field is set.
+Write an approximate substitution minute as ~65'. Omit the minute when it is unknown.
 
 Usage:
   scripts/add-match path/to/match.json   Add one match, then download images

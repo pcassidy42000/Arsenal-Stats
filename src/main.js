@@ -17,6 +17,27 @@ const COMP_ORDER = [
   "League Cup",
 ];
 
+const COMP_INITIALS = {
+  "Premier League": "PL",
+  "Champions League": "CL",
+  "League Cup": "LC",
+  "Carabao Cup": "LC",
+  "Community Shield": "CS",
+  "FA Cup": "FAC",
+  "Europa League": "EL",
+  "Europa Conference League": "ECL",
+  "Conference League": "ECL",
+};
+
+function competitionInitials(name) {
+  if (COMP_INITIALS[name]) return COMP_INITIALS[name];
+  const words = String(name || "")
+    .split(/[\s-]+/)
+    .filter((word) => word && !["of", "the", "and", "a"].includes(word.toLowerCase()));
+  const initials = words.map((word) => word[0]).join("").toUpperCase();
+  return (initials || String(name || "").slice(0, 3).toUpperCase()).slice(0, 4);
+}
+
 const matches = [...matchesFile.matches]
   .filter((match) => match.team === "Men")
   .sort((a, b) => a.date.localeCompare(b.date));
@@ -233,8 +254,9 @@ function reportButton(match) {
   const button = el("button", {
     type: "button",
     class: "report-btn",
-    text: "Report",
-    "aria-label": `Open the ${match.opponent} match report`,
+    text: "R",
+    title: "Match report",
+    "aria-label": "Match report",
   });
   button.addEventListener("pointerdown", (event) => {
     event.stopPropagation();
@@ -253,8 +275,16 @@ function renderFixture(match) {
   const xg = formatPair(view.xgFor, view.xgAgainst);
   const images = flatImages(match);
   const meta = el("div", { class: "fixture-meta" }, [
-    el("div", { class: "when", text: formatDate(match.date) }),
-    el("div", { class: "comp", "data-comp": match.competition, text: match.competition }),
+    el("div", { class: "when-row" }, [
+      el("div", { class: "when", text: formatDate(match.date) }),
+      el("div", {
+        class: "comp",
+        "data-comp": match.competition,
+        title: match.competition,
+        "aria-label": match.competition,
+        text: competitionInitials(match.competition),
+      }),
+    ]),
     el("h2", { class: "opponent" }, [
       document.createTextNode(match.opponent),
       el("span", { class: "venue", title: match.venue === "H" ? "Home" : "Away", text: match.venue }),
@@ -271,8 +301,10 @@ function renderFixture(match) {
       document.createTextNode("xG "),
       el("b", { text: xg || "—" }),
     ]),
-    el("div", { class: "count", text: `${images.length} graphics` }),
-    reportButton(match),
+    el("div", { class: "count-row" }, [
+      el("div", { class: "count", text: `${images.length} graphics` }),
+      reportButton(match),
+    ]),
   ]);
 
   const strip = el("div", { class: "strip", tabindex: "0", "aria-label": `${match.opponent} graphics` });

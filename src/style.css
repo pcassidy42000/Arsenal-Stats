@@ -179,6 +179,13 @@ a { color: var(--gold); }
     var(--panel);
 }
 
+.when-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
 .when {
   color: var(--muted);
   font-size: 13px;
@@ -187,7 +194,7 @@ a { color: var(--gold); }
 }
 
 .comp {
-  align-self: flex-start;
+  flex: 0 0 auto;
   font-size: 11px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -203,6 +210,9 @@ a { color: var(--gold); }
 .comp[data-comp="Community Shield"] { color: #f3efe6; border-color: rgba(255, 255, 255, 0.2); }
 
 .opponent {
+  display: flex;
+  align-items: center;
+  gap: 6px;
   margin: 2px 0 0;
   font-family: var(--cond);
   font-size: 32px;
@@ -214,18 +224,17 @@ a { color: var(--gold); }
 .venue {
   display: inline-grid;
   place-items: center;
-  margin-left: 6px;
-  min-width: 22px;
-  height: 22px;
-  padding: 0 6px;
-  border-radius: 6px;
+  flex: 0 0 auto;
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
   background: white;
   color: #111;
   font-family: var(--sans);
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 700;
-  letter-spacing: 0.04em;
-  vertical-align: 4px;
+  letter-spacing: 0.02em;
+  line-height: 1;
 }
 
 .scoreline {
@@ -262,17 +271,31 @@ a { color: var(--gold); }
 
 .xg b { color: var(--text); font-weight: 600; }
 
+.count-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
 .report-btn {
-  align-self: flex-start;
-  margin-top: 2px;
+  width: 20px;
+  height: 20px;
+  flex: 0 0 20px;
+  margin: 0;
+  padding: 0;
   border: 1px solid var(--line);
+  border-radius: 50%;
   background: transparent;
   color: var(--muted);
-  border-radius: 999px;
-  padding: 2px 9px;
+  font-family: var(--sans);
   font-size: 11px;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0;
+  text-transform: none;
+  display: grid;
+  place-items: center;
   cursor: pointer;
 }
 
@@ -553,6 +576,7 @@ dialog.report::backdrop { background: rgba(0, 0, 0, 0.82); }
     border-bottom: 1px solid var(--line);
   }
   .opponent { font-size: 28px; }
+  .venue { width: 26px; height: 26px; border-radius: 7px; font-size: 16px; }
   .report-heading { font-size: 22px; }
   dialog.report { width: min(680px, calc(100vw - 12px)); max-height: 92dvh; }
   .report-frame { max-height: 92dvh; }
