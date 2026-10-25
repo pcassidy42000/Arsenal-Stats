@@ -73,8 +73,18 @@ function formatStamp(iso) {
   }) + " UTC";
 }
 
+function asset(path) {
+  const base = import.meta.env.BASE_URL || "/";
+  const prefix = base.endsWith("/") ? base : `${base}/`;
+  return `${prefix}${String(path).replace(/^\/+/, "")}`;
+}
+
 function thumbSrc(file) {
-  return `/thumbs/${file.replace(/\.[^.]+$/, "")}.webp`;
+  return asset(`thumbs/${file.replace(/\.[^.]+$/, "")}.webp`);
+}
+
+function fullSrc(file) {
+  return asset(`images/${file}`);
 }
 
 function el(tag, attrs = {}, children = []) {
@@ -102,8 +112,17 @@ function thumbButton(image, match) {
     alt: image.post.title || `${match.opponent} graphic`,
     width: "400",
     height: String(height),
-    loading: "lazy",
     decoding: "async",
+    // Eager on purpose. Native lazy-loading does not reliably fetch images
+    // inside a horizontal overflow strip, so those frames stay blank until
+    // the lightbox opens the JPEG. Thumbs are small enough to load up front.
+    loading: "eager",
+  });
+  img.addEventListener("error", () => {
+    const fallback = fullSrc(image.file);
+    if (img.dataset.fallback === "1" || img.src.endsWith(fallback)) return;
+    img.dataset.fallback = "1";
+    img.src = fallback;
   });
   return el(
     "button",
@@ -368,7 +387,7 @@ function paintLightbox() {
           onClick: () => stepLightbox(-1),
         }),
         el("img", {
-          src: `/images/${image.file}`,
+          src: fullSrc(image.file),
           alt: image.post.title || "Match graphic",
         }),
         el("button", {
@@ -402,7 +421,7 @@ function paintLightbox() {
   const next = images[index + 1];
   if (next) {
     const preload = new Image();
-    preload.src = `/images/${next.file}`;
+    preload.src = fullSrc(next.file);
   }
 }
 

@@ -292,6 +292,7 @@ a { color: var(--gold); }
 
 .thumb {
   flex: 0 0 auto;
+  min-width: 110px;
   padding: 0;
   border: 0;
   background: #090909;
@@ -299,13 +300,21 @@ a { color: var(--gold); }
   overflow: hidden;
   cursor: zoom-in;
   height: 148px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .thumb img {
   height: 148px;
   width: auto;
-  display: block;
   max-width: none;
+  max-height: 148px;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  pointer-events: none;
+  background: #090909;
 }
 
 .nudge {
@@ -373,8 +382,18 @@ a { color: var(--gold); }
   gap: 10px;
 }
 
-.grid .thumb { height: auto; width: 100%; border-radius: 12px; }
-.grid .thumb img { width: 100%; height: auto; }
+.grid .thumb {
+  height: auto;
+  min-width: 0;
+  width: 100%;
+  display: block;
+  border-radius: 12px;
+}
+.grid .thumb img {
+  width: 100%;
+  height: auto;
+  max-height: none;
+}
 
 .site-footer {
   padding: 8px 0 36px;
