@@ -1,6 +1,6 @@
 import matchesFile from "../data/matches.json";
 import imageMeta from "../data/image-meta.json";
-import { arsenalView, formatPair, recordOf, resultWord } from "./score.js";
+import { arsenalView, compareMatches, formatPair, ratesOf, recordOf, resultWord } from "./score.js";
 import { renderMarkdown } from "./markdown.js";
 import "./style.css";
 
@@ -40,7 +40,7 @@ function competitionInitials(name) {
 
 const matches = [...matchesFile.matches]
   .filter((match) => match.team === "Men")
-  .sort((a, b) => a.date.localeCompare(b.date));
+  .sort(compareMatches);
 
 const state = {
   view: "fixtures",
@@ -178,6 +178,22 @@ function renderRecord(list) {
   return box;
 }
 
+function renderRates(list) {
+  const rates = ratesOf(list);
+  const box = el("div", { class: "record rates", "aria-label": "Rates in this filter" });
+  for (const [key, label] of [
+    ["ppg", "PPG"],
+    ["gfg", "GF/G"],
+    ["gag", "GA/G"],
+  ]) {
+    box.append(el("div", { class: key }, [
+      el("b", { text: rates[key] }),
+      el("span", { text: label }),
+    ]));
+  }
+  return box;
+}
+
 function renderHeader(list) {
   const header = el("header", { class: "topbar wrap" }, [
     el("div", { class: "brand" }, [
@@ -195,7 +211,7 @@ function renderHeader(list) {
         ]),
       ]),
     ]),
-    renderRecord(list),
+    el("div", { class: "summary" }, [renderRecord(list), renderRates(list)]),
   ]);
   return header;
 }
@@ -560,6 +576,91 @@ function render() {
       if (strip && nudge && strip.scrollWidth <= strip.clientWidth + 8) nudge.hidden = true;
     }
   });
+  bindStripSync();
+}
+
+function bindStripSync() {
+  const strips = [...document.querySelectorAll(".fixtures .strip")];
+  if (!strips.length) return;
+  let frame = 0;
+
+  const follow = (source) => {
+    const left = source.scrollLeft;
+    for (const strip of strips) {
+      if (strip === source) continue;
+      const before = strip.scrollLeft;
+      if (Math.abs(before - left) < 0.5) continue;
+      strip.dataset.sync = "1";
+      strip.scrollLeft = left;
+      if (strip.scrollLeft === before) delete strip.dataset.sync;
+    }
+  };
+
+  for (const strip of strips) {
+    strip.addEventListener("scroll", () => {
+      if (strip.dataset.sync === "1") {
+        delete strip.dataset.sync;
+        return;
+      }
+      cancelAnimationFrame(frame);
+      frame = requestAnimationFrame(() => follow(strip));
+    }, { passive: true });
+
+    strip.addEventListener("wheel", (event) => {
+      const delta = Math.abs(event.deltaX) > Math.abs(event.deltaY) ? event.deltaX : event.deltaY;
+      if (!delta) return;
+      const max = strip.scrollWidth - strip.clientWidth;
+      if (max <= 0) return;
+      const next = Math.max(0, Math.min(max, strip.scrollLeft + delta));
+      if (next === strip.scrollLeft) return;
+      event.preventDefault();
+      strip.scrollLeft = next;
+    }, { passive: false });
+
+    bindStripDrag(strip);
+  }
+}
+
+function bindStripDrag(strip) {
+  let pointerId = null;
+  let startX = 0;
+  let startLeft = 0;
+  let dragged = false;
+
+  strip.addEventListener("pointerdown", (event) => {
+    if (event.pointerType !== "mouse" || event.button !== 0) return;
+    pointerId = event.pointerId;
+    startX = event.clientX;
+    startLeft = strip.scrollLeft;
+    dragged = false;
+  });
+
+  strip.addEventListener("pointermove", (event) => {
+    if (event.pointerId !== pointerId) return;
+    const dx = event.clientX - startX;
+    if (!dragged && Math.abs(dx) < 5) return;
+    if (!dragged) {
+      dragged = true;
+      strip.classList.add("is-dragging");
+      strip.setPointerCapture(event.pointerId);
+    }
+    strip.scrollLeft = startLeft - dx;
+  });
+
+  const finish = (event) => {
+    if (event.pointerId !== pointerId) return;
+    pointerId = null;
+    strip.classList.remove("is-dragging");
+    if (!dragged) return;
+    const blockClick = (clickEvent) => {
+      clickEvent.preventDefault();
+      clickEvent.stopPropagation();
+    };
+    strip.addEventListener("click", blockClick, true);
+    setTimeout(() => strip.removeEventListener("click", blockClick, true), 0);
+  };
+  strip.addEventListener("pointerup", finish);
+  strip.addEventListener("pointercancel", finish);
 }
 
 function syncHash() {

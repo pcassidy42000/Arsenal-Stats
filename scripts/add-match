@@ -340,7 +340,7 @@ def add_match(path: Path) -> None:
             if image["file"] in filenames:
                 die(f"image filename already used: {image['file']}")
     db.setdefault("matches", []).append(match)
-    db["matches"].sort(key=lambda item: item["date"])
+    db["matches"].sort(key=lambda item: item["date"], reverse=True)
     save_db(db)
     print(
         f"added {match['date']} {match['competition']} vs {match['opponent']} "
