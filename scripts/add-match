@@ -4,6 +4,10 @@
 Reads and writes data/matches.json. Originals land in public/images/ and
 ~400px-wide WebP thumbnails land in public/thumbs/.
 
+An optional "report" field copies a Markdown file into
+data/reports/<date>_<opponent-slug>.md and stores that filename on the match.
+The site shows a Report button only when that field is set.
+
 Usage:
   scripts/add-match path/to/match.json   Add one match, then download images
   scripts/add-match --fetch              Download anything listed but missing
@@ -15,6 +19,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 import urllib.error
 import urllib.request
@@ -24,9 +29,11 @@ from urllib.parse import parse_qs, urlencode, urlparse, urlunparse
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "matches.json"
+REPORTS_DIR = ROOT / "data" / "reports"
 IMAGE_DIR = ROOT / "public" / "images"
 THUMB_DIR = ROOT / "public" / "thumbs"
 META_PATH = ROOT / "data" / "image-meta.json"
+REPORT_NAME = re.compile(r"^\d{4}-\d{2}-\d{2}_[a-z0-9]+(?:-[a-z0-9]+)*\.md$")
 
 THUMB_WIDTH = 400
 USER_AGENT = "ArsenalStatsImageFetcher/1.0"
@@ -89,6 +96,61 @@ def assert_mens(match: dict) -> None:
         if banned in blob:
             die("refusing match that looks like a women's fixture")
     match["team"] = "Men"
+
+
+def opponent_slug(name: str) -> str:
+    slug = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+    if not slug:
+        die("could not build a report filename from the opponent")
+    return slug
+
+
+def canonical_report_name(match: dict) -> str:
+    filename = f"{match['date']}_{opponent_slug(match['opponent'])}.md"
+    if not REPORT_NAME.match(filename):
+        die(f"unsafe report filename {filename}")
+    return filename
+
+
+def resolve_report_source(report: str, match_json: Path) -> Path:
+    raw_path = Path(report.strip())
+    candidates = [raw_path] if raw_path.is_absolute() else [
+        match_json.parent / raw_path,
+        ROOT / raw_path,
+        REPORTS_DIR / raw_path.name,
+    ]
+    for candidate in candidates:
+        if candidate.is_file():
+            return candidate
+    die(
+        "report file not found: "
+        f"{report}. Put the markdown next to the match JSON, or in data/reports/."
+    )
+
+
+def attach_report(raw: dict, match: dict, match_json: Path) -> None:
+    """Copy an optional match report into data/reports and record its filename."""
+    report = raw.get("report")
+    if report is None or report == "":
+        return
+    if not isinstance(report, str):
+        die("report must be a path to a markdown file, or a filename in data/reports")
+    source = resolve_report_source(report, match_json)
+    if source.suffix.lower() != ".md":
+        die("report must be a .md file")
+    text = source.read_text(encoding="utf-8")
+    if not text.strip():
+        die("report file is empty")
+    lowered = text.lower()
+    for banned in ("women", "woman", "wsl", "arsenal wfc"):
+        if banned in lowered:
+            die("refusing a report that looks like a women's match")
+    filename = canonical_report_name(match)
+    dest = REPORTS_DIR / filename
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    if source.resolve() != dest.resolve():
+        dest.write_text(text if text.endswith("\n") else text + "\n", encoding="utf-8")
+    match["report"] = filename
 
 
 def normalize_match(raw: dict) -> dict:
@@ -266,6 +328,7 @@ def fetch_missing(db: dict) -> None:
 def add_match(path: Path) -> None:
     raw = json.loads(path.read_text(encoding="utf-8"))
     match = normalize_match(raw)
+    attach_report(raw, match, path)
     db = load_db()
     dates = [existing["date"] for existing in db.get("matches", [])]
     if match["date"] in dates:

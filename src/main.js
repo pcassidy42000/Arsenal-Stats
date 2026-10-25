@@ -1,7 +1,14 @@
 import matchesFile from "../data/matches.json";
 import imageMeta from "../data/image-meta.json";
 import { arsenalView, formatPair, recordOf, resultWord } from "./score.js";
+import { renderMarkdown } from "./markdown.js";
 import "./style.css";
+
+const reportFiles = import.meta.glob("../data/reports/*.md", {
+  query: "?raw",
+  import: "default",
+  eager: true,
+});
 
 const COMP_ORDER = [
   "Community Shield",
@@ -19,6 +26,7 @@ const state = {
   competition: "All",
   matchDate: matches[0]?.date ?? null,
   lightbox: null,
+  report: null,
 };
 
 const app = document.querySelector("#app");
@@ -210,6 +218,35 @@ function renderToolbar() {
   return el("div", { class: "toolbar wrap" }, [views, filters]);
 }
 
+function reportSource(match) {
+  const name = match.report;
+  if (!name || typeof name !== "string" || name.includes("/") || name.includes("\\") || name.includes("..")) {
+    return null;
+  }
+  const entry = Object.entries(reportFiles).find(([path]) => path.endsWith(`/${name}`));
+  return entry ? entry[1] : null;
+}
+
+function reportButton(match) {
+  const markdown = reportSource(match);
+  if (!markdown) return null;
+  const button = el("button", {
+    type: "button",
+    class: "report-btn",
+    text: "Report",
+    "aria-label": `Open the ${match.opponent} match report`,
+  });
+  button.addEventListener("pointerdown", (event) => {
+    event.stopPropagation();
+  });
+  button.addEventListener("click", (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+    openReport(match, markdown);
+  });
+  return button;
+}
+
 function renderFixture(match) {
   const view = arsenalView(match);
   const score = formatPair(view.goalsFor, view.goalsAgainst);
@@ -235,6 +272,7 @@ function renderFixture(match) {
       el("b", { text: xg || "—" }),
     ]),
     el("div", { class: "count", text: `${images.length} graphics` }),
+    reportButton(match),
   ]);
 
   const strip = el("div", { class: "strip", tabindex: "0", "aria-label": `${match.opponent} graphics` });
@@ -425,6 +463,53 @@ function paintLightbox() {
   }
 }
 
+function ensureReportDialog() {
+  let dialog = document.querySelector("dialog.report");
+  if (dialog) return dialog;
+  dialog = el("dialog", { class: "report", "aria-label": "Match report" });
+  dialog.addEventListener("click", (event) => {
+    if (event.target === dialog) closeReport();
+  });
+  dialog.addEventListener("close", () => {
+    state.report = null;
+  });
+  document.body.append(dialog);
+  return dialog;
+}
+
+function openReport(match, markdown) {
+  state.report = match;
+  const dialog = ensureReportDialog();
+  const body = el("div", { class: "report-body" });
+  body.append(renderMarkdown(markdown));
+  dialog.replaceChildren(
+    el("div", { class: "report-frame" }, [
+      el("div", { class: "report-top" }, [
+        el("h2", { class: "report-heading", text: `${match.opponent} report` }),
+        el("button", {
+          type: "button",
+          class: "report-close",
+          text: "Close",
+          "aria-label": "Close report",
+          onClick: (event) => {
+            event.stopPropagation();
+            closeReport();
+          },
+        }),
+      ]),
+      body,
+    ]),
+  );
+  if (!dialog.open) dialog.showModal();
+  dialog.querySelector(".report-close")?.focus();
+}
+
+function closeReport() {
+  const dialog = document.querySelector("dialog.report");
+  state.report = null;
+  if (dialog?.open) dialog.close();
+}
+
 function render() {
   const list = visibleMatches();
   app.replaceChildren(
@@ -465,6 +550,13 @@ function readHash() {
 }
 
 document.addEventListener("keydown", (event) => {
+  if (state.report) {
+    if (event.key === "Escape") {
+      event.preventDefault();
+      closeReport();
+    }
+    return;
+  }
   if (!state.lightbox) return;
   if (event.key === "Escape") {
     event.preventDefault();
@@ -480,11 +572,11 @@ document.addEventListener("keydown", (event) => {
 
 let touchX = null;
 document.addEventListener("touchstart", (event) => {
-  if (!state.lightbox) return;
+  if (!state.lightbox || state.report) return;
   touchX = event.changedTouches[0].clientX;
 }, { passive: true });
 document.addEventListener("touchend", (event) => {
-  if (!state.lightbox || touchX == null) return;
+  if (!state.lightbox || state.report || touchX == null) return;
   const delta = event.changedTouches[0].clientX - touchX;
   touchX = null;
   if (Math.abs(delta) < 40) return;

@@ -1,4 +1,6 @@
 import assert from "node:assert/strict";
+import fs from "node:fs";
+import path from "node:path";
 import test from "node:test";
 import matches from "../data/matches.json" with { type: "json" };
 
@@ -17,5 +19,16 @@ test("archive is men's matches only", () => {
         assert.match(image.file, /\.jpg$/);
       }
     }
+    assert.match(match.report, /^\d{4}-\d{2}-\d{2}_[a-z0-9-]+\.md$/);
+    const reportPath = path.join(process.cwd(), "data", "reports", match.report);
+    const report = fs.readFileSync(reportPath, "utf8");
+    assert.match(report, /^\*\*Arsenal /);
+    for (const heading of ["How it unfolded", "Arteta's comments", "Arsenal lineup", "Subs", "Sources"]) {
+      assert.match(report, new RegExp(`\\*\\*${heading}\\*\\*`));
+    }
+    assert.match(report, /https:\/\/arseblog\.news\//);
+    const reportBlob = report.toLowerCase();
+    assert.equal(reportBlob.includes("women"), false);
+    assert.equal(reportBlob.includes("wsl"), false);
   }
 });
