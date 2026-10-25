@@ -87,6 +87,16 @@ a { color: var(--gold); }
 
 .brand a { color: inherit; }
 
+.summary {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 10px;
+  margin-right: 28px;
+  max-width: 100%;
+}
+
 .record {
   display: flex;
   gap: 14px;
@@ -97,6 +107,8 @@ a { color: var(--gold); }
 }
 
 .record div { text-align: center; min-width: 36px; }
+
+.record.rates div { min-width: 46px; }
 
 .record b {
   display: block;
@@ -315,8 +327,15 @@ a { color: var(--gold); }
   overflow-x: auto;
   overscroll-behavior-x: contain;
   padding: 12px 44px 12px 12px;
-  scroll-snap-type: x proximity;
   scrollbar-color: #3a3a3a transparent;
+  touch-action: pan-x pan-y;
+  overflow-anchor: none;
+  cursor: grab;
+}
+
+.strip.is-dragging {
+  cursor: grabbing;
+  user-select: none;
 }
 
 .post-group {
@@ -324,7 +343,6 @@ a { color: var(--gold); }
   gap: 6px;
   padding-right: 8px;
   border-right: 1px solid var(--line);
-  scroll-snap-align: start;
 }
 
 .post-group:last-child { border-right: 0; padding-right: 0; }
@@ -567,7 +585,8 @@ dialog.report::backdrop { background: rgba(0, 0, 0, 0.82); }
 
 @media (max-width: 760px) {
   .wrap { width: min(100% - 20px, 1280px); }
-  .topbar { flex-direction: column; align-items: flex-start; padding-top: 18px; }
+  .topbar { flex-direction: column; align-items: stretch; padding-top: 18px; }
+  .summary { justify-content: center; margin-right: 0; width: 100%; gap: 8px; }
   .brand h1 { font-size: 34px; }
   .fixture { flex-direction: column; }
   .fixture-meta {

@@ -6,7 +6,7 @@ The 2026–27 archive starts with 13 matches and 298 images. Originals live in `
 
 ## Views
 
-- **Fixtures** (default). One row per match, oldest first. Each row shows the date, competition, opponent, home/away, Arsenal-first score with W/D/L, and xG, then that match's graphics in post order. The strip scrolls sideways.
+- **Fixtures** (default). One row per match, newest first. Each row shows the date, competition, opponent, home/away, Arsenal-first score with W/D/L, and xG, then that match's graphics in post order. The strips scroll sideways together, so one row's scroll moves the rest to the same offset.
 - **Match gallery.** Pick a match. Graphics are grouped under the post they came from, with a link back to the source post.
 - **Competition filter.** All, Community Shield, Premier League, Champions League, League Cup.
 
@@ -74,7 +74,7 @@ Save a single match as JSON. `team` must be men's. Image URLs should be `pbs.twi
 scripts/add-match path/to/match.json
 ```
 
-That appends the match to `data/matches.json` (sorted by date), downloads each original into `public/images/`, and writes a 400px-wide thumbnail into `public/thumbs/`. Re-running a download for files already on disk:
+That appends the match to `data/matches.json` (newest date first), downloads each original into `public/images/`, and writes a 400px-wide thumbnail into `public/thumbs/`. Re-running a download for files already on disk:
 
 ### Match report
 
