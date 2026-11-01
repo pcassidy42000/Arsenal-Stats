@@ -1,9 +1,179 @@
 {
  "source": "@scottjwillis (Cannon Stats) post-match posts on X",
  "season": "2026-27",
- "generated": "2026-10-27",
+ "generated": "2026-11-01",
  "note": "Team stats transcribed from the Full Time card where available; null = not transcribed.",
  "matches": [
+  {
+   "date": "2026-11-01",
+   "report": "2026-11-01_liverpool.md",
+   "competition": "Premier League",
+   "team": "Men",
+   "home": "Liverpool",
+   "away": "Arsenal",
+   "opponent": "Liverpool",
+   "venue": "A",
+   "score": "0-1",
+   "xg": "1.0-0.8",
+   "image_count": 16,
+   "team_stats": {
+    "Goals": [
+     "0",
+     "1"
+    ],
+    "Expected Goals": [
+     "1.0",
+     "0.8"
+    ],
+    "Shots": [
+     "17",
+     "10"
+    ],
+    "Shots On Target (PSxG)": [
+     "0 (0.0)",
+     "3 (1.2)"
+    ],
+    "Open Play Shots": [
+     "13",
+     "9"
+    ],
+    "Possession": [
+     "56.3%",
+     "43.7%"
+    ],
+    "Passes (Completed)": [
+     "501 (387)",
+     "389 (279)"
+    ],
+    "Field Tilt": [
+     "62.0%",
+     "38.0%"
+    ],
+    "Final Third Entries": [
+     "74",
+     "35"
+    ],
+    "xT Created": [
+     "2.4",
+     "1.6"
+    ],
+    "Progressive Passes": [
+     "40",
+     "13"
+    ],
+    "Dribbles (Successful)": [
+     "20 (6)",
+     "15 (6)"
+    ],
+    "Tackles (Successful)": [
+     "42 (17)",
+     "45 (24)"
+    ],
+    "Interceptions": [
+     "10",
+     "5"
+    ],
+    "Clearances": [
+     "22",
+     "36"
+    ]
+   },
+   "full_time_post": "https://x.com/scottjwillis/status/2116960177328885837",
+   "posts": [
+    {
+     "url": "https://x.com/scottjwillis/status/2116960177328885837",
+     "title": "Liverpool 0 - 1 Arsenal | Full Time | 1.0 - 0.8 xG",
+     "posted_utc": "2026-11-01T18:26:52.000Z",
+     "images": [
+      {
+       "file": "2026-11-01_liverpool_1.jpg",
+       "url": "https://pbs.twimg.com/media/HWD0DpkWAAA4Eal.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-01_liverpool_2.jpg",
+       "url": "https://pbs.twimg.com/media/HWD0Do1XgAA2BP5.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-01_liverpool_3.jpg",
+       "url": "https://pbs.twimg.com/media/HWD0DyaXwAAA5_j.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-01_liverpool_4.jpg",
+       "url": "https://pbs.twimg.com/media/HWD0DvwXQAAvifU.jpg?name=orig&format=jpg"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2116960790523596832",
+     "title": "Liverpool 0 (1.0)-(0.8) 1 Arsenal",
+     "posted_utc": "2026-11-01T18:29:18.000Z",
+     "images": [
+      {
+       "file": "2026-11-01_liverpool_5.jpg",
+       "url": "https://pbs.twimg.com/media/HWD0na7XgAAv0sC.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-01_liverpool_6.jpg",
+       "url": "https://pbs.twimg.com/media/HWD0nXwWAAAvtLI.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-01_liverpool_7.jpg",
+       "url": "https://pbs.twimg.com/media/HWD0nfwXMAAM_Ev.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-01_liverpool_8.jpg",
+       "url": "https://pbs.twimg.com/media/HWD0nZEXUAADLGN.jpg?name=orig&format=jpg"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2116963305633771906",
+     "title": "Arsenal - Attacking Contribution | Liverpool 0 - 1 Arsenal",
+     "posted_utc": "2026-11-01T18:39:17.000Z",
+     "images": [
+      {
+       "file": "2026-11-01_liverpool_9.jpg",
+       "url": "https://pbs.twimg.com/media/HWD254GXYAA8szh.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-01_liverpool_10.jpg",
+       "url": "https://pbs.twimg.com/media/HWD254QWIAArnPq.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-01_liverpool_11.jpg",
+       "url": "https://pbs.twimg.com/media/HWD256sW8AA4kLv.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-01_liverpool_12.jpg",
+       "url": "https://pbs.twimg.com/media/HWD255-WIAMEq6U.jpg?name=orig&format=jpg"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2116965824502153406",
+     "title": "Liverpool 0 - 1 Arsenal - Shot Maps",
+     "posted_utc": "2026-11-01T18:49:18.000Z",
+     "images": [
+      {
+       "file": "2026-11-01_liverpool_13.jpg",
+       "url": "https://pbs.twimg.com/media/HWD5MesWAAAM1-D.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-01_liverpool_14.jpg",
+       "url": "https://pbs.twimg.com/media/HWD5MbwXwAAKiqu.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-01_liverpool_15.jpg",
+       "url": "https://pbs.twimg.com/media/HWD5MUIXQAAGDj4.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-01_liverpool_16.jpg",
+       "url": "https://pbs.twimg.com/media/HWD5MTtWQAARqnJ.jpg?name=orig&format=jpg"
+      }
+     ]
+    }
+   ]
+  },
   {
    "date": "2026-10-27",
    "report": "2026-10-27_fleetwood.md",
