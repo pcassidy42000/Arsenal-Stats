@@ -1,9 +1,229 @@
 {
  "source": "@scottjwillis (Cannon Stats) post-match posts on X",
  "season": "2026-27",
- "generated": "2026-11-01",
+ "generated": "2026-11-04",
  "note": "Team stats transcribed from the Full Time card where available; null = not transcribed.",
  "matches": [
+  {
+   "date": "2026-11-04",
+   "report": "2026-11-04_slavia.md",
+   "highlights": "https://www.youtube.com/watch?v=xR-AMBxuDTI",
+   "competition": "Champions League",
+   "team": "Men",
+   "home": "Slavia",
+   "away": "Arsenal",
+   "opponent": "Slavia",
+   "venue": "A",
+   "score": "1-2",
+   "xg": "1.8-1.6",
+   "image_count": 23,
+   "team_stats": {
+    "Goals": [
+     "1",
+     "2"
+    ],
+    "Expected Goals": [
+     "1.8",
+     "1.6"
+    ],
+    "Shots": [
+     "17",
+     "12"
+    ],
+    "Shots On Target (PSxG)": [
+     "6 (2.7)",
+     "5 (2.1)"
+    ],
+    "Open Play Shots": [
+     "8",
+     "11"
+    ],
+    "Possession": [
+     "43.6%",
+     "56.4%"
+    ],
+    "Passes (Completed)": [
+     "385 (306)",
+     "498 (408)"
+    ],
+    "Field Tilt": [
+     "40.6%",
+     "59.4%"
+    ],
+    "Final Third Entries": [
+     "45",
+     "57"
+    ],
+    "xT Created": [
+     "1.9",
+     "1.6"
+    ],
+    "Progressive Passes": [
+     "25",
+     "18"
+    ],
+    "Dribbles (Successful)": [
+     "16 (7)",
+     "22 (11)"
+    ],
+    "Tackles (Successful)": [
+     "49 (17)",
+     "49 (17)"
+    ],
+    "Interceptions": [
+     "19",
+     "8"
+    ],
+    "Clearances": [
+     "14",
+     "24"
+    ]
+   },
+   "full_time_post": "https://x.com/scottjwillis/status/2118099902211252617",
+   "posts": [
+    {
+     "url": "https://x.com/scottjwillis/status/2118099902211252617",
+     "title": "Slavia 1 - 2 Arsenal | Full Time | 1.8 - 1.6 xG",
+     "posted_utc": "2026-11-04T21:55:43.000Z",
+     "images": [
+      {
+       "file": "2026-11-04_slavia_1.jpg",
+       "url": "https://pbs.twimg.com/media/HWUAoeqWYAAx4TO.jpg?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-11-04_slavia_2.jpg",
+       "url": "https://pbs.twimg.com/media/HWUAodaWcAA7MKi.jpg?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-11-04_slavia_3.jpg",
+       "url": "https://pbs.twimg.com/media/HWUAoflWsAAHya_.jpg?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-11-04_slavia_4.jpg",
+       "url": "https://pbs.twimg.com/media/HWUAoeLXAAE8zc2.jpg?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2118100487970922665",
+     "title": "Slavia 1 (1.8)-(1.6) 2 Arsenal",
+     "posted_utc": "2026-11-04T21:58:03.000Z",
+     "images": [
+      {
+       "file": "2026-11-04_slavia_5.jpg",
+       "url": "https://pbs.twimg.com/media/HWUBKssXYAAesbu.jpg?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-11-04_slavia_6.jpg",
+       "url": "https://pbs.twimg.com/media/HWUBKqYWgAAzdkh.jpg?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-11-04_slavia_7.jpg",
+       "url": "https://pbs.twimg.com/media/HWUBKqiW8AAI6M4.jpg?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-11-04_slavia_8.jpg",
+       "url": "https://pbs.twimg.com/media/HWUBKqgXgAE3e_v.jpg?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2118101791241871465",
+     "title": "Slavia 1 - 2 Arsenal - Passing Networks",
+     "posted_utc": "2026-11-04T22:03:14.000Z",
+     "images": [
+      {
+       "file": "2026-11-04_slavia_9.jpg",
+       "url": "https://pbs.twimg.com/media/HWUCWdHWIAAsKw_.jpg?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-11-04_slavia_10.jpg",
+       "url": "https://pbs.twimg.com/media/HWUCWZ1WUAEDoy-.jpg?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-11-04_slavia_11.jpg",
+       "url": "https://pbs.twimg.com/media/HWUCWhrWsAA1w1z.jpg?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-11-04_slavia_12.jpg",
+       "url": "https://pbs.twimg.com/media/HWUCWdhXgAA1SDB.jpg?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2118103012136587348",
+     "title": "Arsenal - Attacking Contribution | Slavia 1 - 2 Arsenal",
+     "posted_utc": "2026-11-04T22:08:05.000Z",
+     "images": [
+      {
+       "file": "2026-11-04_slavia_13.jpg",
+       "url": "https://pbs.twimg.com/media/HWUDdiQWsAAjdLa.jpg?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-11-04_slavia_14.jpg",
+       "url": "https://pbs.twimg.com/media/HWUDdjeXAAA1P4x.jpg?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-11-04_slavia_15.jpg",
+       "url": "https://pbs.twimg.com/media/HWUDdfQXgAAE7M5.jpg?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-11-04_slavia_16.jpg",
+       "url": "https://pbs.twimg.com/media/HWUDdiyXMAAP0YR.jpg?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2118105530522579097",
+     "title": "Slavia 1 - 2 Arsenal - Shot Maps",
+     "posted_utc": "2026-11-04T22:18:05.000Z",
+     "images": [
+      {
+       "file": "2026-11-04_slavia_17.jpg",
+       "url": "https://pbs.twimg.com/media/HWUFwAeXEAAQ0ND.jpg?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-11-04_slavia_18.jpg",
+       "url": "https://pbs.twimg.com/media/HWUFwG7WkAA-_fX.jpg?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-11-04_slavia_19.jpg",
+       "url": "https://pbs.twimg.com/media/HWUFv9wWAAATYLZ.jpg?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-11-04_slavia_20.jpg",
+       "url": "https://pbs.twimg.com/media/HWUFv6qXcAAk8DE.jpg?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2118108044840128935",
+     "title": "Slavia 1 - 2 Arsenal - Deserve to Win Meter",
+     "posted_utc": "2026-11-04T22:28:05.000Z",
+     "images": [
+      {
+       "file": "2026-11-04_slavia_21.jpg",
+       "url": "https://pbs.twimg.com/media/HWUICYQWkAAq7rr.jpg?format=jpg&name=orig"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2118110555110056193",
+     "title": "Arsenal's Ground and Air Duels - Slavia (1 - 2) Arsenal",
+     "posted_utc": "2026-11-04T22:38:03.000Z",
+     "images": [
+      {
+       "file": "2026-11-04_slavia_22.jpg",
+       "url": "https://pbs.twimg.com/media/HWUKUoBWkAAlf8M.jpg?format=jpg&name=orig"
+      },
+      {
+       "file": "2026-11-04_slavia_23.jpg",
+       "url": "https://pbs.twimg.com/media/HWUKUoIXIAEfnfL.jpg?format=jpg&name=orig"
+      }
+     ]
+    }
+   ]
+  },
   {
    "date": "2026-11-01",
    "report": "2026-11-01_liverpool.md",
