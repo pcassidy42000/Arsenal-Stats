@@ -5,6 +5,226 @@
  "note": "Team stats transcribed from the Full Time card where available; null = not transcribed.",
  "matches": [
   {
+   "date": "2026-11-07",
+   "competition": "Premier League",
+   "team": "Men",
+   "home": "Arsenal",
+   "away": "Hull",
+   "opponent": "Hull",
+   "venue": "H",
+   "score": "1-0",
+   "xg": "1.2-0.4",
+   "image_count": 23,
+   "team_stats": {
+    "Goals": [
+     "1",
+     "0"
+    ],
+    "Expected Goals": [
+     "1.2",
+     "0.4"
+    ],
+    "Shots": [
+     "21",
+     "7"
+    ],
+    "Shots On Target (PSxG)": [
+     "10 (1.1)",
+     "2 (0.5)"
+    ],
+    "Open Play Shots": [
+     "15",
+     "3"
+    ],
+    "Possession": [
+     "67.0%",
+     "33.0%"
+    ],
+    "Passes (Completed)": [
+     "598 (499)",
+     "295 (202)"
+    ],
+    "Field Tilt": [
+     "75.0%",
+     "25.0%"
+    ],
+    "Final Third Entries": [
+     "67",
+     "34"
+    ],
+    "xT Created": [
+     "2.9",
+     "1.2"
+    ],
+    "Progressive Passes": [
+     "36",
+     "21"
+    ],
+    "Dribbles (Successful)": [
+     "16 (9)",
+     "6 (2)"
+    ],
+    "Tackles (Successful)": [
+     "26 (10)",
+     "52 (15)"
+    ],
+    "Interceptions": [
+     "6",
+     "11"
+    ],
+    "Clearances": [
+     "27",
+     "33"
+    ]
+   },
+   "full_time_post": "https://x.com/scottjwillis/status/2119111556612891061",
+   "posts": [
+    {
+     "url": "https://x.com/scottjwillis/status/2119111556612891061",
+     "title": "Arsenal 1 - 0 Hull | Full Time | 1.2 - 0.4 xG",
+     "posted_utc": "2026-11-07T16:55:40.000Z",
+     "images": [
+      {
+       "file": "2026-11-07_hull_1.jpg",
+       "url": "https://pbs.twimg.com/media/HWiYufgXcAAyj2G.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-07_hull_2.jpg",
+       "url": "https://pbs.twimg.com/media/HWiYucyWsAEabQW.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-07_hull_3.jpg",
+       "url": "https://pbs.twimg.com/media/HWiYuecWIAArcdz.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-07_hull_4.jpg",
+       "url": "https://pbs.twimg.com/media/HWiYufHXQAANxWV.jpg?name=orig&format=jpg"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2119112158285865359",
+     "title": "Arsenal 1 (1.2)-(0.4) 0 Hull",
+     "posted_utc": "2026-11-07T16:58:04.000Z",
+     "images": [
+      {
+       "file": "2026-11-07_hull_5.jpg",
+       "url": "https://pbs.twimg.com/media/HWiZRmkXAAAoXrC.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-07_hull_6.jpg",
+       "url": "https://pbs.twimg.com/media/HWiZRm9WoAAXESU.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-07_hull_7.jpg",
+       "url": "https://pbs.twimg.com/media/HWiZRljXIAANMH9.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-07_hull_8.jpg",
+       "url": "https://pbs.twimg.com/media/HWiZRi5WcAAFcuN.jpg?name=orig&format=jpg"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2119114079629463726",
+     "title": "Arsenal 1 - 0 Hull - Passing Networks",
+     "posted_utc": "2026-11-07T17:05:42.000Z",
+     "images": [
+      {
+       "file": "2026-11-07_hull_9.jpg",
+       "url": "https://pbs.twimg.com/media/HWibBVdXEAEzmyy.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-07_hull_10.jpg",
+       "url": "https://pbs.twimg.com/media/HWibBWIWQAAxRQ1.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-07_hull_11.jpg",
+       "url": "https://pbs.twimg.com/media/HWibBe2XwAAp1Fd.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-07_hull_12.jpg",
+       "url": "https://pbs.twimg.com/media/HWibBZyXEAEzHQy.jpg?name=orig&format=jpg"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2119114680471794094",
+     "title": "Arsenal - Attacking Contribution | Arsenal 1 - 0 Hull",
+     "posted_utc": "2026-11-07T17:08:05.000Z",
+     "images": [
+      {
+       "file": "2026-11-07_hull_13.jpg",
+       "url": "https://pbs.twimg.com/media/HWibkOSWgAAfiI_.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-07_hull_14.jpg",
+       "url": "https://pbs.twimg.com/media/HWibkOqWIAAROib.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-07_hull_15.jpg",
+       "url": "https://pbs.twimg.com/media/HWibkQOWIAAR5Uw.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-07_hull_16.jpg",
+       "url": "https://pbs.twimg.com/media/HWibkYhXUAA2kj2.jpg?name=orig&format=jpg"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2119117194491576545",
+     "title": "Arsenal 1 - 0 Hull - Shot Maps",
+     "posted_utc": "2026-11-07T17:18:05.000Z",
+     "images": [
+      {
+       "file": "2026-11-07_hull_17.jpg",
+       "url": "https://pbs.twimg.com/media/HWid2sCXIAAFxKO.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-07_hull_18.jpg",
+       "url": "https://pbs.twimg.com/media/HWid2rIXsAA2h4C.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-07_hull_19.jpg",
+       "url": "https://pbs.twimg.com/media/HWid2j5XwAACpmA.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-07_hull_20.jpg",
+       "url": "https://pbs.twimg.com/media/HWid2jNWgAAhbe3.jpg?name=orig&format=jpg"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2119119708007891268",
+     "title": "Arsenal 1 - 0 Hull - Deserve to Win Meter",
+     "posted_utc": "2026-11-07T17:28:04.000Z",
+     "images": [
+      {
+       "file": "2026-11-07_hull_21.jpg",
+       "url": "https://pbs.twimg.com/media/HWigJBPW4AA91Bf.jpg?name=orig&format=jpg"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2119122224640668113",
+     "title": "Arsenal's Ground and Air Duels - Arsenal (1 - 0) Hull",
+     "posted_utc": "2026-11-07T17:38:04.000Z",
+     "images": [
+      {
+       "file": "2026-11-07_hull_22.jpg",
+       "url": "https://pbs.twimg.com/media/HWiibjtWcAAax6z.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-07_hull_23.jpg",
+       "url": "https://pbs.twimg.com/media/HWiibjmWcAA4PIE.jpg?name=orig&format=jpg"
+      }
+     ]
+    }
+   ],
+   "report": "2026-11-07_hull.md",
+   "highlights": "https://www.youtube.com/watch?v=Zy8QhpA_vNE"
+  },
+  {
    "date": "2026-11-04",
    "report": "2026-11-04_slavia.md",
    "highlights": "https://www.youtube.com/watch?v=xR-AMBxuDTI",
