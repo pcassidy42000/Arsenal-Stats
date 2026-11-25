@@ -5,6 +5,226 @@
  "note": "Team stats transcribed from the Full Time card where available; null = not transcribed.",
  "matches": [
   {
+   "date": "2026-11-24",
+   "competition": "Champions League",
+   "team": "Men",
+   "home": "Arsenal",
+   "away": "Dortmund",
+   "opponent": "Dortmund",
+   "venue": "H",
+   "score": "1-1",
+   "xg": "1.8-1.0",
+   "image_count": 23,
+   "team_stats": {
+    "Goals": [
+     "1",
+     "1"
+    ],
+    "Expected Goals": [
+     "1.8",
+     "1.0"
+    ],
+    "Shots": [
+     "29",
+     "13"
+    ],
+    "Shots On Target (PSxG)": [
+     "4 (0.7)",
+     "4 (1.4)"
+    ],
+    "Open Play Shots": [
+     "20",
+     "11"
+    ],
+    "Possession": [
+     "62.7%",
+     "37.3%"
+    ],
+    "Passes (Completed)": [
+     "602 (511)",
+     "358 (279)"
+    ],
+    "Field Tilt": [
+     "69.7%",
+     "30.3%"
+    ],
+    "Final Third Entries": [
+     "55",
+     "46"
+    ],
+    "xT Created": [
+     "3.2",
+     "1.1"
+    ],
+    "Progressive Passes": [
+     "40",
+     "24"
+    ],
+    "Dribbles (Successful)": [
+     "23 (10)",
+     "12 (6)"
+    ],
+    "Tackles (Successful)": [
+     "35 (15)",
+     "52 (18)"
+    ],
+    "Interceptions": [
+     "9",
+     "10"
+    ],
+    "Clearances": [
+     "20",
+     "51"
+    ]
+   },
+   "full_time_post": "https://x.com/scottjwillis/status/2125346530840211519",
+   "posts": [
+    {
+     "url": "https://x.com/scottjwillis/status/2125346530840211519",
+     "title": "Arsenal 1 - 1 Dortmund | Full Time | 1.8 - 1.0 xG",
+     "posted_utc": "2026-11-24T21:51:14.000Z",
+     "images": [
+      {
+       "file": "2026-11-24_dortmund_1.jpg",
+       "url": "https://pbs.twimg.com/media/HX6_ZzEWoAA_cIU.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-24_dortmund_2.jpg",
+       "url": "https://pbs.twimg.com/media/HX6_ZzCXAAAu4qk.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-24_dortmund_3.jpg",
+       "url": "https://pbs.twimg.com/media/HX6_ZyzXUAA7lPd.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-24_dortmund_4.jpg",
+       "url": "https://pbs.twimg.com/media/HX6_Zz6WQAAar60.jpg?name=orig&format=jpg"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2125347106621649035",
+     "title": "Arsenal 1 (1.8)-(1.0) 1 Dortmund",
+     "posted_utc": "2026-11-24T21:53:31.000Z",
+     "images": [
+      {
+       "file": "2026-11-24_dortmund_5.jpg",
+       "url": "https://pbs.twimg.com/media/HX6_7WQWUAA_dNW.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-24_dortmund_6.jpg",
+       "url": "https://pbs.twimg.com/media/HX6_7WPX0AAH3vY.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-24_dortmund_7.jpg",
+       "url": "https://pbs.twimg.com/media/HX6_7WLXsAA6uBA.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-24_dortmund_8.jpg",
+       "url": "https://pbs.twimg.com/media/HX6_7WRW0AAsiaF.jpg?name=orig&format=jpg"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2125348365005168946",
+     "title": "Arsenal 1 - 1 Dortmund - Passing Networks",
+     "posted_utc": "2026-11-24T21:58:31.000Z",
+     "images": [
+      {
+       "file": "2026-11-24_dortmund_9.jpg",
+       "url": "https://pbs.twimg.com/media/HX7BEl0XQAATF1s.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-24_dortmund_10.jpg",
+       "url": "https://pbs.twimg.com/media/HX7BEltXkAAX-IX.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-24_dortmund_11.jpg",
+       "url": "https://pbs.twimg.com/media/HX7BEmPWYAAvKmG.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-24_dortmund_12.jpg",
+       "url": "https://pbs.twimg.com/media/HX7BElcXIAAaBTt.jpg?name=orig&format=jpg"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2125349625477374097",
+     "title": "Arsenal - Attacking Contribution | Arsenal 1 - 1 Dortmund",
+     "posted_utc": "2026-11-24T22:03:32.000Z",
+     "images": [
+      {
+       "file": "2026-11-24_dortmund_13.jpg",
+       "url": "https://pbs.twimg.com/media/HX7CN3-WQAABSsl.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-24_dortmund_14.jpg",
+       "url": "https://pbs.twimg.com/media/HX7CN3zW4AALPte.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-24_dortmund_15.jpg",
+       "url": "https://pbs.twimg.com/media/HX7CN30WYAEtxXZ.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-24_dortmund_16.jpg",
+       "url": "https://pbs.twimg.com/media/HX7CN36XAAACmDv.jpg?name=orig&format=jpg"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2125352141485215865",
+     "title": "Arsenal 1 - 1 Dortmund - Shot Maps",
+     "posted_utc": "2026-11-24T22:13:32.000Z",
+     "images": [
+      {
+       "file": "2026-11-24_dortmund_17.jpg",
+       "url": "https://pbs.twimg.com/media/HX7EgUvXMAA2mEx.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-24_dortmund_18.jpg",
+       "url": "https://pbs.twimg.com/media/HX7EgWUWIAEvYX6.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-24_dortmund_19.jpg",
+       "url": "https://pbs.twimg.com/media/HX7EgUZXkAA8L8I.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-24_dortmund_20.jpg",
+       "url": "https://pbs.twimg.com/media/HX7EgUtW8AAFnj_.jpg?name=orig&format=jpg"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2125354659262972125",
+     "title": "Arsenal 1 - 1 Dortmund - Deserve to Win Meter",
+     "posted_utc": "2026-11-24T22:23:32.000Z",
+     "images": [
+      {
+       "file": "2026-11-24_dortmund_21.jpg",
+       "url": "https://pbs.twimg.com/media/HX7GyzdXMAA6vBq.jpg?name=orig&format=jpg"
+      }
+     ]
+    },
+    {
+     "url": "https://x.com/scottjwillis/status/2125357172380815506",
+     "title": "Arsenal's Ground and Air Duels - Arsenal (1 - 1) Dortmund",
+     "posted_utc": "2026-11-24T22:33:31.000Z",
+     "images": [
+      {
+       "file": "2026-11-24_dortmund_22.jpg",
+       "url": "https://pbs.twimg.com/media/HX7JFS0WcAAcSZO.jpg?name=orig&format=jpg"
+      },
+      {
+       "file": "2026-11-24_dortmund_23.jpg",
+       "url": "https://pbs.twimg.com/media/HX7JFSeXIAAkKKh.jpg?name=orig&format=jpg"
+      }
+     ]
+    }
+   ],
+   "report": "2026-11-24_dortmund.md",
+   "highlights": "https://www.youtube.com/watch?v=RSWwOhhA1Hc"
+  },
+  {
    "date": "2026-11-21",
    "competition": "Premier League",
    "team": "Men",
